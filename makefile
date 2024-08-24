@@ -1,2 +1,4 @@
 rn:
-	rm *.class
+	@javac hello.java
+	@java hello
+	@rm *.class
