@@ -1,7 +1,10 @@
 import turtle
 
-#  wn = turtle.Screen()
-
 rianA = turtle.Turtle()
 
-rianA.forward(100)
+for i in range(8):
+    rianA.forward(100)
+    rianA.left(45)
+
+
+turtle.exitonclick()
