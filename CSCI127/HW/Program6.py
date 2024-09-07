@@ -5,6 +5,5 @@
 
 startValue = 2 # need to start with 2
 
-for i in range(17-2+1): # 17-2 is to decide how many times to repeat and +1 because 2 is inclusive
-    print(startValue)
-    startValue = startValue + 1 # Need to update it to get the next value
+for i in range(16): # From 2-17 it's 16 because 2 is inclusive
+    print(startValue + i) # Since i increments each time, we can add it to the startValue
