@@ -103,12 +103,15 @@ window.onkey(pause_game, "space") # if space is pressed it will run the pause_ga
 
 # FOOD 
 Body = [] # Create a array to hold the new body segments after eating food
-num_body = 1
 
 def eat_food():
-    global num_body
     global speed
+    global score
+    num_body = random.randint(1,5)
+
     if snake.distance(food) <= 15:
+        score += 1
+        update_score()
         food.goto(random.randint(-250,250), random.randint(-250,250))  # Spawns food at a random location
         speed = speed + 0.05  # Increases the speed after eating food
         # Makes a new segment 
@@ -120,9 +123,6 @@ def eat_food():
             new_body.speed(1)
             new_body.shapesize(0.8,0.8)
             Body.append(new_body) # Adds the new body part to the Body array that has all the other body parts
-        num_body = num_body + 1
-        if num_body > 5:
-            num_body = 1
 
 def move_body():
     # Check if there is any body parts to replace the snake head
@@ -153,8 +153,10 @@ def move_body():
 def game_over():
     global Body
     global paused
+    global score
     x = snake.xcor()
     y = snake.ycor() 
+
 
     # Wall Collision
     if x > 300 or x < -300 or y > 300 or y < -300:  # These are the endpoints so if the snake is at the end of map, these commands below will be triggered
@@ -165,10 +167,40 @@ def game_over():
             i.hideturtle()
         Body.clear() # Removes all the data in Body array
 
+        # Update score
+        score = 0
+        update_score()
+
     # Body Collision
-    
+    for index, segment in enumerate(Body):  # Check if snake head touches any body segment
+        if index > 10:
+            if snake.distance(segment) < 5:  # Small threshold to detect collision
+                paused = True  # Pause the game
+                snake.goto(random.randint(-250, 250), random.randint(-250, 250))  # Respawn snake
+                food.goto(random.randint(-250, 250), random.randint(-250, 250))  # Respawn food
+                for i in Body:  # Hide body segments
+                    i.hideturtle()
+                Body.clear()  # Reset body
+                # Reset score
+                score = 0
+                update_score()
 
+# Score Counter
+score = 0
+# Setup a counter turtle 
+counter = turtle.Turtle()
+counter.penup()
+counter.color("black")
+counter.hideturtle()
+counter.goto(170,265)
+counter.write(f"Score: {score}", font=("Arial", 18, "normal"))
 
+# Everytime food is eaten, this code resets the counter turtle and gives it new characteristics
+def update_score():
+    global score
+    counter.clear()  # Used in order to prevent overlapping of numbers
+    counter.goto(170,265)
+    counter.write(f"Score: {score}", font=("Arial", 18, "normal"))
 
 # Make it move
 while True: # It will make sure it's always watching out for when a key is pressed and keeps the snake in continious motion
