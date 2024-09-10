@@ -78,7 +78,7 @@ def go_left():
         direction = "left"
 
 def move(): # Defines by how much the snake will move by when the keys are presssed
- if paused == False: # Since initially paused is False, it won't runs the next step unless pasued is changed from False to True by pressing space and vice versa
+ if not paused: # Since initially paused is False, it won't run the next step unless pasued is changed from False to True by pressing space and vice versa
     if direction == "up":
         yCordinate = snake.ycor()
         snake.sety(yCordinate + speed)
@@ -124,7 +124,7 @@ def eat_food():
 
 def move_body():
     # Check if there is any body parts to replace the snake head
-    if paused == False:
+    if not paused:
         if len(Body) > 0:
         #             (    start   , end , increment )
             for i in range( len(Body)-1,  0  ,   -1 ):  
