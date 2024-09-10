@@ -21,7 +21,6 @@ snake.setx(random.randint(-250,250))
 snake.sety(random.randint(-250,250))
 snake.color("red")
 snake.shape("triangle")
-snake.speed(10)
 
 # Setup Food
 food = turtle.Turtle()
@@ -120,7 +119,6 @@ def eat_food():
             new_body.penup()
             new_body.shape("circle")
             new_body.color("red")
-            new_body.speed(1)
             new_body.shapesize(0.8,0.8)
             Body.append(new_body) # Adds the new body part to the Body array that has all the other body parts
 
@@ -159,15 +157,14 @@ def game_over():
 
 
     # Wall Collision
-    if x > 300 or x < -300 or y > 300 or y < -300:  # These are the endpoints so if the snake is at the end of map, these commands below will be triggered
-        paused = True  # Stops snake from moving since is paused is True, it will not run any of the codes that moves the snake
+    if x > 290 or x < -290 or y > 290 or y < -290:  # These are the endpoints so if the snake is at the end of map, these commands below will be triggered
+        paused = True  # Stops snake from moving since paused is True, it will not run any of the codes that moves the snake
         snake.goto(random.randint(-250,250), random.randint(-250,250)) # Respawn in a random location
         food.goto(random.randint(-250,250), random.randint(-250,250))
         for i in Body:   # Loops though the Body array and hides the turtles
             i.hideturtle()
         Body.clear() # Removes all the data in Body array
-
-        # Update score
+        # Reset score
         score = 0
         update_score()
 
