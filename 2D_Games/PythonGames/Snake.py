@@ -106,6 +106,7 @@ Body = [] # Create a array to hold the new body segments after eating food
 def eat_food():
     global speed
     global score
+
     num_body = random.randint(1,5)
 
     if snake.distance(food) <= 15:
@@ -119,6 +120,7 @@ def eat_food():
             new_body.penup()
             new_body.shape("circle")
             new_body.color("red")
+            new_body.goto(333,333)
             new_body.shapesize(0.8,0.8)
             Body.append(new_body) # Adds the new body part to the Body array that has all the other body parts
 

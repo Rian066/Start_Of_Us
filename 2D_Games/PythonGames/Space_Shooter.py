@@ -1,4 +1,5 @@
 import turtle
+import random
 
 # Setup the game screen
 screen = turtle.Screen()
@@ -8,7 +9,7 @@ winWidth = 600
 screen.setup(winWidth, winHeight)
 
 bg_pic = "/Users/macbookair/Start_Of_Us/2D_Games/PythonGames/space-1.gif"
-screen.register_shape(bg_pic)  # Makes a new shape based on the gif
+screen.register_shape(bg_pic)
 
 tk_screen = screen._root # Access the underlying Tkinter window
 tk_screen.resizable(False, False) # Remove the ability to manipulate screen size
@@ -48,20 +49,88 @@ def move_bg():
     if y2 == -600:
         bg_screen2.sety(595)
 
-
+# Make the ability to move the ship where ever you drag the cursor within a boundary
 def move_ship(x, y):
     if x < -270 or x > 270 or y < -270 or y > -50:
-        ship.ondrag(None)
+        ship.ondrag(None) # Nothing hapens if cursor is dragged
     else:
-        ship.goto(x,y)
+        ship.goto(x,y) # The ship goes to the cursor's (x,y) coordinate
 
 def drag():
-    ship.ondrag(move_ship)
+    ship.ondrag(move_ship) # Calls the move_ship def when cursor is dragged
 
-screen.onscreenclick(move_ship)
+screen.onscreenclick(move_ship)  # Calls move_ship def whenever its clicked in the boundary
+
+# Shooting animation
+
+bullets = []  # Array to store the newly created bullet turtles
+def create_bullets():
+    x = ship.xcor()
+    y = ship.ycor()
+    bullet = turtle.Turtle()
+    bullet.penup()
+    bullet.color("cyan")
+    bullet.shape("circle")
+    bullet.shapesize(0.3, 0.3)
+    bullet.goto(x,y+15)
+    bullets.append(bullet)
+    screen.ontimer(create_bullets, 300)
+
+screen.ontimer(create_bullets)
+
+def shoot():
+    for i in range(0, len(bullets), + 1): # Goes through each bullet in the array from 0 to length of the array and moves them up by 10
+        y = bullets[i].ycor()
+        bullets[i].sety(y + 10)
+        if y > 300:         # If the bullets go over y = 300, then they are deleted
+            bullets[i].hideturtle()
+            bullets[i].clear()
+        
+        
+# Obstacles
+obstacles = []
+def create_obstacles():
+    x = random.randint(-240, 240)
+    y = random.randint(300, 350)
+    obs = turtle.Turtle()
+    obs.penup()
+    obs.color("red")
+    obs.shape("square")
+    obs.shapesize(random.uniform(0.1, 2), random.uniform(0.1, 2))
+    obs.goto(x,y)
+    obstacles.append(obs)
+    screen.ontimer(create_obstacles, 2000)
+
+screen.ontimer(create_obstacles)
+
+def move_obs():
+    for i in range(0, len(obstacles), + 1): # Goes through each bullet in the array from 0 to length of the array and moves them up by 10
+        y = obstacles[i].ycor()
+        obstacles[i].sety(y - 5)
+        if y < -300:         # If the obstacles go over y = 300, then they are deleted
+            obstacles[i].hideturtle()
+            obstacles[i].clear()
+
+def check_collison():
+    for i in range(len(obstacles)):
+        for j in range(len(bullets)):
+            if obstacles[i].distance(bullets[j]) < 10:
+                obstacles[i].hideturtle()
+                bullets[j].hideturtle()
+            if obstacles[i].distance(ship) < 20:
+                ship.hideturtle()
+                obstacles.hideturtle()
+                bullets.hideturtle()
+                ship.setheading(90)
+                ship.goto(0,-250)
+     
+
 
 while True:
     screen.update()
     move_bg()
     drag()
+    shoot()
+    move_obs()
+    check_collison()
 
