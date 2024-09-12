@@ -5,7 +5,7 @@ import random
 screen = turtle.Screen()
 screen.title("Space Shooter")
 winHeight = 600
-winWidth = 600
+winWidth = 450
 screen.setup(winWidth, winHeight)
 
 bg_pic = "/Users/macbookair/Start_Of_Us/2D_Games/PythonGames/space-1.gif"
@@ -35,6 +35,8 @@ ship.setheading(90)
 ship.goto(0,-250)
 ship.speed(1)
 
+ship_hidden = False
+
 def move_bg():
     # We need two of these because when one of then reaches the bottom, it reveals the actual background behind it. So it doesn't look like moving space. You can see for yourself by deleting one of them.
    
@@ -51,7 +53,7 @@ def move_bg():
 
 # Make the ability to move the ship where ever you drag the cursor within a boundary
 def move_ship(x, y):
-    if x < -270 or x > 270 or y < -270 or y > -50:
+    if x < -200 or x > 200 or y < -270 or y > -50:
         ship.ondrag(None) # Nothing hapens if cursor is dragged
     else:
         ship.goto(x,y) # The ship goes to the cursor's (x,y) coordinate
@@ -65,65 +67,85 @@ screen.onscreenclick(move_ship)  # Calls move_ship def whenever its clicked in t
 
 bullets = []  # Array to store the newly created bullet turtles
 def create_bullets():
-    x = ship.xcor()
-    y = ship.ycor()
-    bullet = turtle.Turtle()
-    bullet.penup()
-    bullet.color("cyan")
-    bullet.shape("circle")
-    bullet.shapesize(0.3, 0.3)
-    bullet.goto(x,y+15)
-    bullets.append(bullet)
-    screen.ontimer(create_bullets, 300)
+    if not ship_hidden:
+        x = ship.xcor()
+        y = ship.ycor()
+        bullet = turtle.Turtle()
+        bullet.penup()
+        bullet.color("cyan")
+        bullet.shape("circle")
+        bullet.shapesize(0.3, 0.3)
+        bullet.goto(x,y+15)
+        bullets.append(bullet)
+        screen.ontimer(create_bullets, 500)
 
 screen.ontimer(create_bullets)
 
 def shoot():
-    for i in range(0, len(bullets), + 1): # Goes through each bullet in the array from 0 to length of the array and moves them up by 10
-        y = bullets[i].ycor()
-        bullets[i].sety(y + 10)
+    to_remove = []
+    for bullet in bullets: # Goes through each bullet in the array from 0 to length of the array and moves them up by 10
+        y = bullet.ycor()
+        bullet.sety(y + 10)
         if y > 300:         # If the bullets go over y = 300, then they are deleted
-            bullets[i].hideturtle()
-            bullets[i].clear()
+            bullet.hideturtle()
+            to_remove.append(bullet)
+    for i in to_remove:
+        bullets.remove(i)
+
         
         
 # Obstacles
 obstacles = []
 def create_obstacles():
-    x = random.randint(-240, 240)
-    y = random.randint(300, 350)
-    obs = turtle.Turtle()
-    obs.penup()
-    obs.color("red")
-    obs.shape("square")
-    obs.shapesize(random.uniform(0.1, 2), random.uniform(0.1, 2))
-    obs.goto(x,y)
-    obstacles.append(obs)
-    screen.ontimer(create_obstacles, 2000)
+    if not ship_hidden:
+        x = random.randint(-200, 200)
+        y = random.randint(300, 350)
+        obs = turtle.Turtle()
+        obs.penup()
+        obs.color("red")
+        obs.shape("square")
+        obs.shapesize(random.uniform(0.5, 2), random.uniform(0.5, 2))
+        obs.goto(x,y)
+        obstacles.append(obs)
+        screen.ontimer(create_obstacles, 3000)
 
 screen.ontimer(create_obstacles)
 
 def move_obs():
-    for i in range(0, len(obstacles), + 1): # Goes through each bullet in the array from 0 to length of the array and moves them up by 10
-        y = obstacles[i].ycor()
-        obstacles[i].sety(y - 5)
+    to_remove = []
+    for obs in obstacles: # Goes through each bullet in the array from 0 to length of the array and moves them up by 10
+        y = obs.ycor()
+        obs.sety(y - 5)
         if y < -300:         # If the obstacles go over y = 300, then they are deleted
-            obstacles[i].hideturtle()
-            obstacles[i].clear()
+            obs.hideturtle()
+            to_remove.append(obs)
+    for i in to_remove:
+        obstacles.remove(i)
 
 def check_collison():
-    for i in range(len(obstacles)):
-        for j in range(len(bullets)):
-            if obstacles[i].distance(bullets[j]) < 10:
-                obstacles[i].hideturtle()
-                bullets[j].hideturtle()
-            if obstacles[i].distance(ship) < 20:
+    global ship_hidden
+    for obs in obstacles:
+        for bullet in bullets:
+            if obs.distance(bullet) < 15:
+                obs.goto(300,600)
+                bullet.goto(300,600)
+              
+    if not ship_hidden:
+        for obs in obstacles:
+            if obs.distance(ship) < 15:
                 ship.hideturtle()
-                obstacles.hideturtle()
-                bullets.hideturtle()
-                ship.setheading(90)
-                ship.goto(0,-250)
-     
+                ship_hidden = not ship_hidden
+def reset():
+    global ship_hidden
+    if ship_hidden:
+        ship_hidden = not ship_hidden
+        ship.showturtle()
+        ship.goto(0, -250)
+        screen.ontimer(create_bullets, 500)
+        screen.ontimer(create_obstacles, 3000)
+    screen.ontimer(reset, 15000)
+
+screen.ontimer(reset)
 
 
 while True:
