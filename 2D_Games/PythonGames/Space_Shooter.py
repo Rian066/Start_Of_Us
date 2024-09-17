@@ -77,9 +77,6 @@ def create_bullets():
         bullet.shapesize(0.3, 0.3)
         bullet.goto(x,y+15)
         bullets.append(bullet)
-        screen.ontimer(create_bullets, 500)
-
-screen.ontimer(create_bullets)
 
 def shoot():
     to_remove = []
@@ -124,28 +121,41 @@ def move_obs():
 
 def check_collison():
     global ship_hidden
+    to_remove_bullets = []
+    to_remove_obs = []
+
     for obs in obstacles:
         for bullet in bullets:
             if obs.distance(bullet) < 15:
                 obs.goto(300,600)
                 bullet.goto(300,600)
-              
+                to_remove_bullets.append(bullet)
+                to_remove_obs.append(obs)
+    for i in to_remove_obs:
+        obstacles.remove(i)
+    for i in to_remove_bullets:
+        bullets.remove(i)
+
     if not ship_hidden:
         for obs in obstacles:
             if obs.distance(ship) < 15:
                 ship.hideturtle()
                 ship_hidden = not ship_hidden
+
 def reset():
     global ship_hidden
     if ship_hidden:
         ship_hidden = not ship_hidden
         ship.showturtle()
         ship.goto(0, -250)
-        screen.ontimer(create_bullets, 500)
         screen.ontimer(create_obstacles, 3000)
-    screen.ontimer(reset, 15000)
+    screen.ontimer(reset, 12000)
 
 screen.ontimer(reset)
+
+screen.listen()
+screen.onkey(create_bullets, "space")
+# Enemy ships
 
 
 while True:
