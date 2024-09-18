@@ -158,11 +158,14 @@ screen.onkey(create_bullets, "space")
 # Enemy ships
 
 
-while True:
+def game_loop():
     screen.update()
     move_bg()
     drag()
     shoot()
     move_obs()
     check_collison()
+    screen.ontimer(game_loop, 20)
+
+screen.ontimer(game_loop, 20)
 
