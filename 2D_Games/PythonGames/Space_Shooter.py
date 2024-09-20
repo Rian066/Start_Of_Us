@@ -101,7 +101,7 @@ def create_obstacles():
         obs.penup()
         obs.color("red")
         obs.shape("square")
-        obs.shapesize(random.uniform(0.5, 2), random.uniform(0.5, 2))
+        obs.shapesize(random.uniform(0.5, 2))
         obs.goto(x,y)
         obstacles.append(obs)
         screen.ontimer(create_obstacles, 3000)
@@ -138,7 +138,8 @@ def check_collison():
 
     if not ship_hidden:
         for obs in obstacles:
-            if obs.distance(ship) < 15:
+            length = obs.shapesize()
+            if obs.distance(ship) < length[1]:
                 ship.hideturtle()
                 ship_hidden = not ship_hidden
 
@@ -158,14 +159,10 @@ screen.onkey(create_bullets, "space")
 # Enemy ships
 
 
-def game_loop():
+while True:
     screen.update()
     move_bg()
     drag()
     shoot()
     move_obs()
     check_collison()
-    screen.ontimer(game_loop, 20)
-
-screen.ontimer(game_loop, 20)
-
