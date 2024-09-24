@@ -10,7 +10,7 @@ hex_turtle = turtle.Turtle()
 
 # Characteristics 
 hex_turtle.shape("turtle")  # Shape is like a turtle
-hex_turtle.shapesize(5)  # Size is 5 times the default
+#hex_turtle.shapesize(5)  # Size is 5 times the default
 hex_turtle.color(color)
 
 turtle.exitonclick()
