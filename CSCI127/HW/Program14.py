@@ -5,18 +5,19 @@
 
 import turtle 
 
-turn0 = input("Enter a numer: ")
-turn1 = input("Enter a numer: ")
-turn2 = input("Enter a numer: ")
-turn3 = input("Enter a numer: ")
-turn4 = input("Enter a numer: ")
+# turn0 = input("Enter a numer: ")
+# turn1 = input("Enter a numer: ")
+# turn2 = input("Enter a numer: ")
+# turn3 = input("Enter a numer: ")
+# turn4 = input("Enter a numer: ")
 
-array = list([turn0,turn1,turn2, turn3, turn4])
+# array = list([turn0,turn1,turn2, turn3, turn4])
 
 rian = turtle.Turtle()
 
-for i in array:
-    rian.left(int(i, 10))
+for i in range(5):
+    turn = input("Enter a number: ")
+    rian.left(int(turn))
     rian.forward(100)
 
 turtle.exitonclick()

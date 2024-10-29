@@ -1,0 +1,6 @@
+#Name:  Rian M Alif
+#Email: rian.alif58@myhunter.cuny.edu
+#Date: October 29, 2024
+#Program: Computes NAND of two inputs, using only AND, OR, and NOT gates
+
+out = not(in1 and in2)

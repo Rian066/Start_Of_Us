@@ -3,13 +3,13 @@
 #Date: October 12, 2024
 #This program uses ceaser cipher
 
-cipher_text = input("Type something: ")
+text = input("Type something: ")
 
-final_text = ''
-for char in cipher_text:
+cipher_text = ''
+for char in text:
     shift = ord(char) + 13
-    if shift > ord('a') + 26:
-        shift = ord('a') + (shift - (26 + ord('a')))
-    final_text += chr(shift)
+    if shift > ord('z'):
+        shift = ord('a') - 1 + (shift - ord('z'))
+    cipher_text += chr(shift)
 
-print(final_text)
+print(cipher_text)
