@@ -3,6 +3,9 @@ import pandas as pd
 
 df = pd.read_csv('nycHistPop.csv', skiprows=5)
 
-max = df["Year"].max()
+
+df["Fraction"] = df["Bronx"]/df["Total"]
 print(df)
-print(max)
+print(df["Fraction"])
+
+
