@@ -1,0 +1,1343 @@
+2024-11-18 12:29:18,414 - 
+1 Failed download:
+2024-11-18 12:29:18,414 - ['EURUSD=X']: YFInvalidPeriodError("%ticker%: Period '2d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']")
+2024-11-18 12:29:18,420 - Error: Data is empty.
+2024-11-18 12:29:18,420 - No data received. Retrying...
+2024-11-18 12:30:18,510 - 
+1 Failed download:
+2024-11-18 12:30:18,510 - ['EURUSD=X']: YFInvalidPeriodError("%ticker%: Period '2d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']")
+2024-11-18 12:30:18,513 - Error: Data is empty.
+2024-11-18 12:30:18,513 - No data received. Retrying...
+2024-11-18 12:31:10,303 - 
+1 Failed download:
+2024-11-18 12:31:10,303 - ['EURUSD=X']: YFInvalidPeriodError("%ticker%: Period '2d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']")
+2024-11-18 12:31:10,308 - Error: Data is empty.
+2024-11-18 12:31:10,308 - No data received. Retrying...
+2024-11-18 12:32:10,405 - 
+1 Failed download:
+2024-11-18 12:32:10,406 - ['EURUSD=X']: YFInvalidPeriodError("%ticker%: Period '2d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']")
+2024-11-18 12:32:10,410 - Error: Data is empty.
+2024-11-18 12:32:10,410 - No data received. Retrying...
+2024-11-18 12:33:12,662 - Latest RSI: 57.14068556661853, Latest SMA: 1.058545138154711
+2024-11-18 12:33:12,663 - [2024-11-18 12:33:12.663218] Signal for EURUSD=X: HOLD
+2024-11-18 12:34:12,846 - Latest RSI: 57.143942848457215, Latest SMA: 1.0585611462593079
+2024-11-18 12:34:12,847 - [2024-11-18 12:34:12.847842] Signal for EURUSD=X: HOLD
+2024-11-18 12:35:13,036 - Latest RSI: 57.143942848457215, Latest SMA: 1.0585771543639046
+2024-11-18 12:35:13,036 - [2024-11-18 12:35:13.036584] Signal for EURUSD=X: HOLD
+2024-11-18 12:36:13,261 - Latest RSI: 53.8467834342773, Latest SMA: 1.0585851584162032
+2024-11-18 12:36:13,261 - [2024-11-18 12:36:13.261383] Signal for EURUSD=X: HOLD
+2024-11-18 12:37:13,458 - Latest RSI: 61.54349783124642, Latest SMA: 1.0586091790880476
+2024-11-18 12:37:13,458 - [2024-11-18 12:37:13.458703] Signal for EURUSD=X: HOLD
+2024-11-18 12:38:13,665 - Latest RSI: 61.54349783124642, Latest SMA: 1.0586331997598921
+2024-11-18 12:38:13,666 - [2024-11-18 12:38:13.666108] Signal for EURUSD=X: HOLD
+2024-11-18 12:39:13,883 - Latest RSI: 80.0, Latest SMA: 1.0586812240736825
+2024-11-18 12:39:13,883 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:40:14,300 - Latest RSI: 71.43291293116548, Latest SMA: 1.058705244745527
+2024-11-18 12:40:14,302 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:41:14,520 - Latest RSI: 75.0066471683063, Latest SMA: 1.0587372779846191
+2024-11-18 12:41:14,522 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:42:14,731 - Latest RSI: 87.50498471354513, Latest SMA: 1.0587853278432573
+2024-11-18 12:42:14,733 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:43:14,926 - Latest RSI: 87.50498471354513, Latest SMA: 1.0588333777018957
+2024-11-18 12:43:14,929 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:43:33,032 - Latest Close: Ticker
+EURUSD=X    1.05921
+Name: 2024-11-18 17:43:00+00:00, dtype: float64
+2024-11-18 12:43:33,033 - Latest RSI: 87.50498471354513, Latest SMA: 1.0588333777018957
+2024-11-18 12:43:33,034 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:44:37,914 - Latest Close: Ticker
+EURUSD=X    1.059322
+Name: 2024-11-18 17:44:00+00:00, dtype: float64
+2024-11-18 12:44:37,915 - Latest RSI: 100.0, Latest SMA: 1.0588974441800798
+2024-11-18 12:44:37,915 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:45:38,127 - Latest Close: Ticker
+EURUSD=X    1.05921
+Name: 2024-11-18 17:45:00+00:00, dtype: float64
+2024-11-18 12:45:38,128 - Latest RSI: 88.88363851151801, Latest SMA: 1.0589534980910165
+2024-11-18 12:45:38,128 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:45:58,951 - Latest RSI: 88.88363851151801, Latest SMA: 1.0589534980910165
+2024-11-18 12:45:58,951 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:47:08,178 - Latest RSI: 77.76990314197968, Latest SMA: 1.0590335726737976
+2024-11-18 12:47:08,178 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:50:55,098 - Latest RSI: 71.42857142857143, Latest SMA: 1.0591136728014265
+2024-11-18 12:50:55,101 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 12:57:12,028 - 
+1 Failed download:
+2024-11-18 12:57:12,029 - ['EURUSD=X']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+2024-11-18 12:57:12,047 - Error: Data is empty.
+2024-11-18 12:57:12,049 - No data received. Retrying...
+2024-11-18 12:59:46,573 - Latest RSI: 66.66666666666666, Latest SMA: 1.0593060510499137
+2024-11-18 12:59:46,576 - [2024-11-18 12:59:46.576708] Signal for EURUSD=X: HOLD
+2024-11-18 13:35:22,149 - 
+1 Failed download:
+2024-11-18 13:35:22,151 - ['EURUSD=X']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+2024-11-18 13:35:22,156 - Error: Data is empty.
+2024-11-18 13:35:22,157 - No data received. Retrying...
+2024-11-18 13:36:22,458 - Latest RSI: 54.546332046332054, Latest SMA: 1.0594904252461024
+2024-11-18 13:36:22,459 - [2024-11-18 13:36:22.459674] Signal for EURUSD=X: HOLD
+2024-11-18 13:37:22,734 - Latest RSI: 58.33112113972216, Latest SMA: 1.059506458895547
+2024-11-18 13:37:22,735 - [2024-11-18 13:37:22.735788] Signal for EURUSD=X: HOLD
+2024-11-18 13:38:22,959 - Latest RSI: 58.33112113972216, Latest SMA: 1.0595224925449915
+2024-11-18 13:38:22,960 - [2024-11-18 13:38:22.960807] Signal for EURUSD=X: HOLD
+2024-11-18 13:39:23,232 - Latest RSI: 53.847410553831075, Latest SMA: 1.0595305136271886
+2024-11-18 13:39:23,233 - [2024-11-18 13:39:23.233845] Signal for EURUSD=X: HOLD
+2024-11-18 13:40:23,466 - Latest RSI: 58.336283185840706, Latest SMA: 1.0595465557915824
+2024-11-18 13:40:23,467 - [2024-11-18 13:40:23.467517] Signal for EURUSD=X: HOLD
+2024-11-18 13:41:23,718 - Latest RSI: 64.28733975574605, Latest SMA: 1.0595786316054208
+2024-11-18 13:41:23,718 - [2024-11-18 13:41:23.718915] Signal for EURUSD=X: HOLD
+2024-11-18 13:42:23,941 - Latest RSI: 61.53908994363206, Latest SMA: 1.0596026863370622
+2024-11-18 13:42:23,942 - [2024-11-18 13:42:23.942377] Signal for EURUSD=X: HOLD
+2024-11-18 13:43:24,152 - Latest RSI: 58.33259580493849, Latest SMA: 1.0596187199865068
+2024-11-18 13:43:24,152 - [2024-11-18 13:43:24.152947] Signal for EURUSD=X: HOLD
+2024-11-18 13:44:24,367 - Latest RSI: 53.84364022547177, Latest SMA: 1.0596267325537545
+2024-11-18 13:44:24,368 - [2024-11-18 13:44:24.368822] Signal for EURUSD=X: HOLD
+2024-11-18 13:45:24,627 - Latest RSI: 53.84803921568627, Latest SMA: 1.0596347536359514
+2024-11-18 13:45:24,628 - [2024-11-18 13:45:24.628363] Signal for EURUSD=X: HOLD
+2024-11-18 13:46:24,866 - Latest RSI: 50.0, Latest SMA: 1.0596347536359514
+2024-11-18 13:46:24,867 - [2024-11-18 13:46:24.867321] Signal for EURUSD=X: HOLD
+2024-11-18 13:47:25,130 - Latest RSI: 61.5409755698995, Latest SMA: 1.0596588083675929
+2024-11-18 13:47:25,131 - [2024-11-18 13:47:25.131784] Signal for EURUSD=X: HOLD
+2024-11-18 13:48:25,422 - Latest RSI: 41.66592900770116, Latest SMA: 1.0596427747181483
+2024-11-18 13:48:25,423 - [2024-11-18 13:48:25.423200] Signal for EURUSD=X: HOLD
+2024-11-18 13:48:41,560 - Latest RSI: 53.6839462783984, Latest SMA: 1.4843921491077967
+2024-11-18 13:48:41,561 - [2024-11-18 13:48:41.561161] Signal for EURCAD=X: HOLD
+2024-11-18 13:49:41,854 - Latest RSI: 53.129657228017884, Latest SMA: 1.4843957253864832
+2024-11-18 13:49:41,854 - [2024-11-18 13:49:41.854756] Signal for EURCAD=X: HOLD
+2024-11-18 13:50:29,941 - Latest RSI: 56.86068256194483, Latest SMA: 1.4844092897006445
+2024-11-18 13:50:29,942 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 13:51:30,206 - Latest RSI: 51.378254211332305, Latest SMA: 1.4844085744449071
+2024-11-18 13:51:30,208 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 13:52:44,260 - Latest RSI: 49.5405819295559, Latest SMA: 1.4844092897006445
+2024-11-18 13:52:44,260 - [2024-11-18 13:52:44.260449] Signal for EURCAD=X: HOLD
+2024-11-18 13:53:44,551 - Latest RSI: 50.80296182325223, Latest SMA: 1.4844214235033308
+2024-11-18 13:53:44,552 - [2024-11-18 13:53:44.552111] Signal for EURCAD=X: HOLD
+2024-11-18 13:54:44,925 - Latest RSI: 35.17721099701889, Latest SMA: 1.4843957083565849
+2024-11-18 13:54:44,927 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 13:55:45,183 - Latest RSI: 48.0416228224015, Latest SMA: 1.4843999998910087
+2024-11-18 13:55:45,183 - [2024-11-18 13:55:45.183812] Signal for EURCAD=X: HOLD
+2024-11-18 13:56:45,456 - Latest RSI: 52.08100385141012, Latest SMA: 1.484401421887534
+2024-11-18 13:56:45,459 - [2024-11-18 13:56:45.459534] Signal for EURCAD=X: HOLD
+2024-11-18 13:57:08,941 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 18:57:00+00:00, dtype: float64, Latest RSI: 61.545372866127586, Latest SMA: 1.0597952093396867
+2024-11-18 13:57:08,942 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 13:58:09,193 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 18:58:00+00:00, dtype: float64, Latest RSI: 66.6755154411114, Latest SMA: 1.0598273021834237
+2024-11-18 13:58:09,195 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 13:59:09,414 - Latest Close: Ticker
+EURUSD=X    1.059996
+Name: 2024-11-18 18:59:00+00:00, dtype: float64, Latest RSI: 66.66961599716865, Latest SMA: 1.0598593865122115
+2024-11-18 13:59:09,415 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:00:09,663 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 19:00:00+00:00, dtype: float64, Latest RSI: 69.23391048676903, Latest SMA: 1.0598994919231959
+2024-11-18 14:00:09,665 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:01:09,911 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 19:01:00+00:00, dtype: float64, Latest RSI: 63.64250554965737, Latest SMA: 1.059923563684736
+2024-11-18 14:01:09,913 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:02:10,160 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 19:02:00+00:00, dtype: float64, Latest RSI: 77.77777777777777, Latest SMA: 1.0599636690957206
+2024-11-18 14:02:10,161 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:03:10,550 - Latest Close: Ticker
+EURUSD=X    1.06022
+Name: 2024-11-18 19:03:00+00:00, dtype: float64, Latest RSI: 77.78301886792453, Latest SMA: 1.0600037915366036
+2024-11-18 14:03:10,551 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:04:10,814 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 19:04:00+00:00, dtype: float64, Latest RSI: 69.99893876684708, Latest SMA: 1.0600358843803406
+2024-11-18 14:04:10,815 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:05:11,095 - Latest Close: Ticker
+EURUSD=X    1.06022
+Name: 2024-11-18 19:05:00+00:00, dtype: float64, Latest RSI: 66.66666666666666, Latest SMA: 1.0600599561418806
+2024-11-18 14:05:11,097 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:06:11,425 - Latest Close: Ticker
+EURUSD=X    1.06022
+Name: 2024-11-18 19:06:00+00:00, dtype: float64, Latest RSI: 66.66666666666666, Latest SMA: 1.0600840279034205
+2024-11-18 14:06:11,426 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:07:11,670 - Latest Close: Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:07:00+00:00, dtype: float64, Latest RSI: 76.93374673629243, Latest SMA: 1.060140243598393
+2024-11-18 14:07:11,672 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:07:41,193 - Latest Close: Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:07:00+00:00, dtype: float64, Latest RSI: 76.93374673629243, Latest SMA: 1.060140243598393
+2024-11-18 14:07:41,195 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:08:01,585 - Latest Close: Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:07:00+00:00, dtype: float64, Latest RSI: 76.93374673629243, Latest SMA: 1.060140243598393
+2024-11-18 14:08:01,585 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:08:22,278 - Latest Close: Ticker
+EURUSD=X    1.060895
+Name: 2024-11-18 19:08:00+00:00, dtype: float64, Latest RSI: 84.6222874857236, Latest SMA: 1.0602125184876579
+2024-11-18 14:08:22,280 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:08:42,996 - Latest Close: Ticker
+EURUSD=X    1.060895
+Name: 2024-11-18 19:08:00+00:00, dtype: float64, Latest RSI: 84.6222874857236, Latest SMA: 1.0602125184876579
+2024-11-18 14:08:42,997 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:12:23,892 - DEBUG - Entering download()
+2024-11-18 14:12:23,892 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:12:23,892 - DEBUG -  Entering history()
+2024-11-18 14:12:23,894 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2024-11-18 14:12:23,894 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:12:23,945 - DEBUG -   Entering history()
+2024-11-18 14:12:23,945 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:12:23,945 - DEBUG -    Entering get()
+2024-11-18 14:12:23,945 - DEBUG -     Entering _make_request()
+2024-11-18 14:12:23,945 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:12:23,945 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:12:23,945 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:12:23,945 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:12:23,946 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:12:23,947 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2024-11-18 14:12:23,948 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2024-11-18 14:12:23,948 - DEBUG - loaded persistent cookie
+2024-11-18 14:12:23,949 - DEBUG - reusing cookie
+2024-11-18 14:12:23,960 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2024-11-18 14:12:24,060 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/11" 200 11
+2024-11-18 14:12:24,061 - DEBUG - crumb = 'Kna6TupzAUB'
+2024-11-18 14:12:24,061 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:12:24,061 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:12:24,064 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2024-11-18 14:12:24,200 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:12:24,252 - DEBUG - response code=200
+2024-11-18 14:12:24,252 - DEBUG -     Exiting _make_request()
+2024-11-18 14:12:24,252 - DEBUG -    Exiting get()
+2024-11-18 14:12:24,283 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:12:01
+2024-11-18 14:12:24,300 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:12:01+00:00
+2024-11-18 14:12:24,303 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:12:01+00:00
+2024-11-18 14:12:24,315 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:12:00+00:00
+2024-11-18 14:12:24,316 - DEBUG -   Exiting history()
+2024-11-18 14:12:24,316 - DEBUG -  Exiting history()
+2024-11-18 14:12:24,332 - DEBUG - Exiting download()
+2024-11-18 14:12:24,341 - DEBUG - Close=Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:12:00+00:00, dtype: float64, RSI=71.42640823743186, SMA=1.0604454619543893
+2024-11-18 14:12:24,341 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:12:48,568 - DEBUG - Entering download()
+2024-11-18 14:12:48,568 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:12:48,569 - DEBUG -  Entering history()
+2024-11-18 14:12:48,571 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2024-11-18 14:12:48,571 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:12:48,623 - DEBUG -   Entering history()
+2024-11-18 14:12:48,623 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:12:48,623 - DEBUG -    Entering get()
+2024-11-18 14:12:48,623 - DEBUG -     Entering _make_request()
+2024-11-18 14:12:48,623 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:12:48,623 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:12:48,623 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:12:48,623 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:12:48,624 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:12:48,625 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2024-11-18 14:12:48,625 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2024-11-18 14:12:48,625 - DEBUG - loaded persistent cookie
+2024-11-18 14:12:48,625 - DEBUG - reusing cookie
+2024-11-18 14:12:48,637 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2024-11-18 14:12:48,721 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/11" 200 11
+2024-11-18 14:12:48,722 - DEBUG - crumb = 'Kna6TupzAUB'
+2024-11-18 14:12:48,722 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:12:48,722 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:12:48,724 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2024-11-18 14:12:48,873 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:12:48,912 - DEBUG - response code=200
+2024-11-18 14:12:48,913 - DEBUG -     Exiting _make_request()
+2024-11-18 14:12:48,913 - DEBUG -    Exiting get()
+2024-11-18 14:12:48,944 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:12:01
+2024-11-18 14:12:48,962 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:12:01+00:00
+2024-11-18 14:12:48,967 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:12:01+00:00
+2024-11-18 14:12:48,978 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:12:00+00:00
+2024-11-18 14:12:48,979 - DEBUG -   Exiting history()
+2024-11-18 14:12:48,980 - DEBUG -  Exiting history()
+2024-11-18 14:12:48,996 - DEBUG - Exiting download()
+2024-11-18 14:12:49,007 - DEBUG - Close=Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:12:00+00:00, dtype: float64, RSI=71.42640823743186, SMA=1.0604454619543893
+2024-11-18 14:12:49,007 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:13:09,067 - DEBUG - Entering download()
+2024-11-18 14:13:09,067 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:13:09,067 - DEBUG -  Entering history()
+2024-11-18 14:13:09,069 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:13:09,070 - DEBUG -   Entering history()
+2024-11-18 14:13:09,070 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:13:09,070 - DEBUG -    Entering get()
+2024-11-18 14:13:09,070 - DEBUG -     Entering _make_request()
+2024-11-18 14:13:09,070 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:13:09,070 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:13:09,070 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:13:09,070 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:13:09,070 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:13:09,070 - DEBUG - reusing cookie
+2024-11-18 14:13:09,070 - DEBUG - reusing crumb
+2024-11-18 14:13:09,071 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:13:09,071 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:13:09,166 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:13:09,195 - DEBUG - response code=200
+2024-11-18 14:13:09,195 - DEBUG -     Exiting _make_request()
+2024-11-18 14:13:09,195 - DEBUG -    Exiting get()
+2024-11-18 14:13:09,222 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:13:01
+2024-11-18 14:13:09,237 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:01+00:00
+2024-11-18 14:13:09,240 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:01+00:00
+2024-11-18 14:13:09,251 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:00+00:00
+2024-11-18 14:13:09,252 - DEBUG -   Exiting history()
+2024-11-18 14:13:09,252 - DEBUG -  Exiting history()
+2024-11-18 14:13:09,267 - DEBUG - Exiting download()
+2024-11-18 14:13:09,277 - DEBUG - Close=Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:13:00+00:00, dtype: float64, RSI=76.91178868416762, SMA=1.0605016776493617
+2024-11-18 14:13:09,277 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:13:29,281 - DEBUG - Entering download()
+2024-11-18 14:13:29,283 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:13:29,284 - DEBUG -  Entering history()
+2024-11-18 14:13:29,285 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:13:29,286 - DEBUG -   Entering history()
+2024-11-18 14:13:29,286 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:13:29,287 - DEBUG -    Entering get()
+2024-11-18 14:13:29,287 - DEBUG -     Entering _make_request()
+2024-11-18 14:13:29,287 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:13:29,288 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:13:29,288 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:13:29,288 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:13:29,288 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:13:29,288 - DEBUG - reusing cookie
+2024-11-18 14:13:29,288 - DEBUG - reusing crumb
+2024-11-18 14:13:29,288 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:13:29,288 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:13:29,381 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:13:29,427 - DEBUG - response code=200
+2024-11-18 14:13:29,428 - DEBUG -     Exiting _make_request()
+2024-11-18 14:13:29,428 - DEBUG -    Exiting get()
+2024-11-18 14:13:29,465 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:13:01
+2024-11-18 14:13:29,510 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:01+00:00
+2024-11-18 14:13:29,513 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:01+00:00
+2024-11-18 14:13:29,526 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:00+00:00
+2024-11-18 14:13:29,527 - DEBUG -   Exiting history()
+2024-11-18 14:13:29,527 - DEBUG -  Exiting history()
+2024-11-18 14:13:29,545 - DEBUG - Exiting download()
+2024-11-18 14:13:29,557 - DEBUG - Close=Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:13:00+00:00, dtype: float64, RSI=76.91178868416762, SMA=1.0605016776493617
+2024-11-18 14:13:29,557 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:13:49,562 - DEBUG - Entering download()
+2024-11-18 14:13:49,563 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:13:49,564 - DEBUG -  Entering history()
+2024-11-18 14:13:49,565 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:13:49,565 - DEBUG -   Entering history()
+2024-11-18 14:13:49,565 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:13:49,565 - DEBUG -    Entering get()
+2024-11-18 14:13:49,565 - DEBUG -     Entering _make_request()
+2024-11-18 14:13:49,566 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:13:49,566 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:13:49,566 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:13:49,566 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:13:49,566 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:13:49,566 - DEBUG - reusing cookie
+2024-11-18 14:13:49,566 - DEBUG - reusing crumb
+2024-11-18 14:13:49,566 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:13:49,566 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:13:49,660 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:13:49,708 - DEBUG - response code=200
+2024-11-18 14:13:49,708 - DEBUG -     Exiting _make_request()
+2024-11-18 14:13:49,708 - DEBUG -    Exiting get()
+2024-11-18 14:13:49,734 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:13:01
+2024-11-18 14:13:49,746 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:01+00:00
+2024-11-18 14:13:49,749 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:01+00:00
+2024-11-18 14:13:49,759 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:13:00+00:00
+2024-11-18 14:13:49,759 - DEBUG -   Exiting history()
+2024-11-18 14:13:49,759 - DEBUG -  Exiting history()
+2024-11-18 14:13:49,776 - DEBUG - Exiting download()
+2024-11-18 14:13:49,785 - DEBUG - Close=Ticker
+EURUSD=X    1.060783
+Name: 2024-11-18 19:13:00+00:00, dtype: float64, RSI=76.91178868416762, SMA=1.0605016776493617
+2024-11-18 14:13:49,786 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:14:09,790 - DEBUG - Entering download()
+2024-11-18 14:14:09,791 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:14:09,791 - DEBUG -  Entering history()
+2024-11-18 14:14:09,792 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:14:09,812 - DEBUG -   Entering history()
+2024-11-18 14:14:09,812 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:14:09,812 - DEBUG -    Entering get()
+2024-11-18 14:14:09,833 - DEBUG -     Entering _make_request()
+2024-11-18 14:14:09,833 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:14:09,854 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:14:09,854 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:14:09,854 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:14:09,854 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:14:09,854 - DEBUG - reusing cookie
+2024-11-18 14:14:09,854 - DEBUG - reusing crumb
+2024-11-18 14:14:09,854 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:14:09,854 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:14:09,972 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:14:10,037 - DEBUG - response code=200
+2024-11-18 14:14:10,037 - DEBUG -     Exiting _make_request()
+2024-11-18 14:14:10,037 - DEBUG -    Exiting get()
+2024-11-18 14:14:10,064 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:14:01
+2024-11-18 14:14:10,076 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:14:01+00:00
+2024-11-18 14:14:10,080 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:14:01+00:00
+2024-11-18 14:14:10,090 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:14:00+00:00
+2024-11-18 14:14:10,091 - DEBUG -   Exiting history()
+2024-11-18 14:14:10,091 - DEBUG -  Exiting history()
+2024-11-18 14:14:10,106 - DEBUG - Exiting download()
+2024-11-18 14:14:10,114 - DEBUG - Close=Ticker
+EURUSD=X    1.06067
+Name: 2024-11-18 19:14:00+00:00, dtype: float64, RSI=69.22637971794245, SMA=1.060541842664991
+2024-11-18 14:14:10,115 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:14:30,119 - DEBUG - Entering download()
+2024-11-18 14:14:30,120 - DEBUG - Disabling multithreading because DEBUG logging enabled
+2024-11-18 14:14:30,120 - DEBUG -  Entering history()
+2024-11-18 14:14:30,120 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['EURUSD=X', 1, 0])
+2024-11-18 14:14:30,121 - DEBUG -   Entering history()
+2024-11-18 14:14:30,121 - DEBUG - EURUSD=X: Yahoo GET parameters: {'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:14:30,121 - DEBUG -    Entering get()
+2024-11-18 14:14:30,121 - DEBUG -     Entering _make_request()
+2024-11-18 14:14:30,121 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/EURUSD=X
+2024-11-18 14:14:30,122 - DEBUG - params={'range': '5d', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2024-11-18 14:14:30,122 - DEBUG -      Entering _get_cookie_and_crumb()
+2024-11-18 14:14:30,122 - DEBUG - cookie_mode = 'basic'
+2024-11-18 14:14:30,122 - DEBUG -       Entering _get_cookie_and_crumb_basic()
+2024-11-18 14:14:30,122 - DEBUG - reusing cookie
+2024-11-18 14:14:30,122 - DEBUG - reusing crumb
+2024-11-18 14:14:30,122 - DEBUG -       Exiting _get_cookie_and_crumb_basic()
+2024-11-18 14:14:30,122 - DEBUG -      Exiting _get_cookie_and_crumb()
+2024-11-18 14:14:30,212 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/EURUSD=X?range=5d&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=Kna6TupzAUB HTTP/11" 200 None
+2024-11-18 14:14:30,260 - DEBUG - response code=200
+2024-11-18 14:14:30,260 - DEBUG -     Exiting _make_request()
+2024-11-18 14:14:30,260 - DEBUG -    Exiting get()
+2024-11-18 14:14:30,288 - DEBUG - EURUSD=X: yfinance received OHLC data: 2024-11-12 00:00:00 -> 2024-11-18 19:14:01
+2024-11-18 14:14:30,299 - DEBUG - EURUSD=X: OHLC after cleaning: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:14:01+00:00
+2024-11-18 14:14:30,305 - DEBUG - EURUSD=X: OHLC after combining events: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:14:01+00:00
+2024-11-18 14:14:30,314 - DEBUG - EURUSD=X: yfinance returning OHLC: 2024-11-12 00:00:00+00:00 -> 2024-11-18 19:14:00+00:00
+2024-11-18 14:14:30,315 - DEBUG -   Exiting history()
+2024-11-18 14:14:30,315 - DEBUG -  Exiting history()
+2024-11-18 14:14:30,330 - DEBUG - Exiting download()
+2024-11-18 14:14:30,340 - DEBUG - Close=Ticker
+EURUSD=X    1.06067
+Name: 2024-11-18 19:14:00+00:00, dtype: float64, RSI=69.22637971794245, SMA=1.060541842664991
+2024-11-18 14:14:30,340 - ERROR - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:20:58,784 - Latest Close: Ticker
+EURUSD=X    1.060108
+Name: 2024-11-18 19:20:00+00:00, dtype: float64, Latest RSI: 46.66902154715648, Latest SMA: 1.0606141345841544
+2024-11-18 14:20:58,785 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:21:19,007 - Latest Close: Ticker
+EURUSD=X    1.059996
+Name: 2024-11-18 19:21:00+00:00, dtype: float64, Latest RSI: 18.198458574181117, Latest SMA: 1.060557918889182
+2024-11-18 14:21:19,009 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:21:39,248 - Latest Close: Ticker
+EURUSD=X    1.059996
+Name: 2024-11-18 19:21:00+00:00, dtype: float64, Latest RSI: 18.198458574181117, Latest SMA: 1.060557918889182
+2024-11-18 14:21:39,249 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:21:59,505 - Latest Close: Ticker
+EURUSD=X    1.059996
+Name: 2024-11-18 19:21:00+00:00, dtype: float64, Latest RSI: 18.198458574181117, Latest SMA: 1.060557918889182
+2024-11-18 14:21:59,506 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:22:19,741 - Latest Close: Ticker
+EURUSD=X    1.059883
+Name: 2024-11-18 19:22:00+00:00, dtype: float64, Latest RSI: 9.105800732318372, Latest SMA: 1.060485643999917
+2024-11-18 14:22:19,741 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:22:39,983 - Latest Close: Ticker
+EURUSD=X    1.059883
+Name: 2024-11-18 19:22:00+00:00, dtype: float64, Latest RSI: 9.105800732318372, Latest SMA: 1.060485643999917
+2024-11-18 14:22:39,985 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:24:40,883 - Latest Close: Ticker
+EURUSD=X    1.059883
+Name: 2024-11-18 19:24:00+00:00, dtype: float64, Latest RSI: 9.082144234477454, Latest SMA: 1.0603410686765398
+2024-11-18 14:24:40,884 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:25:28,545 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:25:00+00:00, dtype: float64, Latest RSI: 9.083019959502451, Latest SMA: 1.0602688023022242
+2024-11-18 14:25:28,547 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:26:28,787 - Latest Close: Ticker
+EURUSD=X    1.059659
+Name: 2024-11-18 19:26:00+00:00, dtype: float64, Latest RSI: 8.326703792097575, Latest SMA: 1.0601885148457117
+2024-11-18 14:26:28,789 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:27:34,912 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:27:00+00:00, dtype: float64, Latest RSI: 15.37331701346389, Latest SMA: 1.0601162484713964
+2024-11-18 14:27:34,913 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:28:35,160 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:28:00+00:00, dtype: float64, Latest RSI: 16.65487977369166, Latest SMA: 1.060052011694227
+2024-11-18 14:28:35,163 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:29:35,391 - Latest Close: Ticker
+EURUSD=X    1.059659
+Name: 2024-11-18 19:29:00+00:00, dtype: float64, Latest RSI: 16.657824933686996, Latest SMA: 1.059987791946956
+2024-11-18 14:29:35,392 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:30:35,634 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:30:00+00:00, dtype: float64, Latest RSI: 23.065621939275218, Latest SMA: 1.0599315932818822
+2024-11-18 14:30:35,635 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:30:45,345 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:30:00+00:00, dtype: float64, Latest RSI: 23.065621939275218, Latest SMA: 1.0597710609436035
+2024-11-18 14:30:45,346 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:31:45,590 - Latest Close: Ticker
+EURUSD=X    1.059659
+Name: 2024-11-18 19:31:00+00:00, dtype: float64, Latest RSI: 24.991156703218948, Latest SMA: 1.0596587657928467
+2024-11-18 14:31:45,591 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:32:45,827 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:32:00+00:00, dtype: float64, Latest RSI: 33.327436759242886, Latest SMA: 1.0597710609436035
+2024-11-18 14:32:45,828 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:33:46,045 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:33:00+00:00, dtype: float64, Latest RSI: 33.327436759242886, Latest SMA: 1.0597710609436035
+2024-11-18 14:33:46,046 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:34:46,322 - Latest Close: Ticker
+EURUSD=X    1.059547
+Name: 2024-11-18 19:34:00+00:00, dtype: float64, Latest RSI: 30.769230769230774, Latest SMA: 1.0595465898513794
+2024-11-18 14:34:46,324 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-18 14:35:00,648 - Latest Close: Ticker
+EURUSD=X    1.059547
+Name: 2024-11-18 19:34:00+00:00, dtype: float64, Latest RSI: 30.769230769230774, Latest ROC: -0.0002244710922241211
+2024-11-18 14:35:00,649 - [2024-11-18 14:35:00.649151] Signal for EURUSD=X: HOLD
+2024-11-18 14:36:00,949 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 19:35:00+00:00, dtype: float64, Latest RSI: 42.85280958519754, Latest ROC: 0.0002244710922241211
+2024-11-18 14:36:00,950 - [2024-11-18 14:36:00.950839] Signal for EURUSD=X: HOLD
+2024-11-18 14:37:01,281 - Latest Close: Ticker
+EURUSD=X    1.059659
+Name: 2024-11-18 19:36:00+00:00, dtype: float64, Latest RSI: 42.85280958519754, Latest ROC: -0.00011229515075683594
+2024-11-18 14:37:01,281 - [2024-11-18 14:37:01.281736] Signal for EURUSD=X: HOLD
+2024-11-18 14:38:01,524 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:37:00+00:00, dtype: float64, Latest RSI: 33.330973952434874, Latest ROC: -0.0002244710922241211
+2024-11-18 14:38:01,525 - [2024-11-18 14:38:01.525548] Signal for EURUSD=X: HOLD
+2024-11-18 14:39:14,452 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:39:00+00:00, dtype: float64, Latest RSI: 38.46279506656865, Latest ROC: 0.0
+2024-11-18 14:39:14,453 - [2024-11-18 14:39:14.453445] Signal for EURUSD=X: HOLD
+2024-11-18 14:40:14,692 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:40:00+00:00, dtype: float64, Latest RSI: 41.66887886027785, Latest ROC: 0.0
+2024-11-18 14:40:14,694 - [2024-11-18 14:40:14.694877] Signal for EURUSD=X: HOLD
+2024-11-18 14:41:14,911 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:41:00+00:00, dtype: float64, Latest RSI: 36.3645139492229, Latest ROC: 0.0
+2024-11-18 14:41:14,912 - [2024-11-18 14:41:14.912446] Signal for EURUSD=X: HOLD
+2024-11-18 14:49:00,227 - Latest Close: Ticker
+EURUSD=X    1.059322
+Name: 2024-11-18 19:48:00+00:00, dtype: float64, Latest RSI: 39.99575191163976, Latest ROC: 0.00011217594146728516
+2024-11-18 14:49:00,229 - [2024-11-18 14:49:00.229337] Signal for EURUSD=X: BUY
+2024-11-18 14:50:00,449 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:49:00+00:00, dtype: float64, Latest RSI: 33.33333333333333, Latest ROC: 0.00011229515075683594
+2024-11-18 14:50:00,450 - [2024-11-18 14:50:00.450099] Signal for EURUSD=X: BUY
+2024-11-18 14:51:00,757 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:50:00+00:00, dtype: float64, Latest RSI: 37.50165936545865, Latest ROC: 0.0
+2024-11-18 14:51:00,758 - [2024-11-18 14:51:00.758120] Signal for EURUSD=X: HOLD
+2024-11-18 14:52:00,974 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:51:00+00:00, dtype: float64, Latest RSI: 50.0, Latest ROC: 0.0
+2024-11-18 14:52:00,977 - [2024-11-18 14:52:00.977267] Signal for EURUSD=X: HOLD
+2024-11-18 14:53:01,188 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:52:00+00:00, dtype: float64, Latest RSI: 50.0, Latest ROC: 0.0
+2024-11-18 14:53:01,189 - [2024-11-18 14:53:01.189277] Signal for EURUSD=X: HOLD
+2024-11-18 14:54:01,395 - Latest Close: Ticker
+EURUSD=X    1.059434
+Name: 2024-11-18 19:53:00+00:00, dtype: float64, Latest RSI: 50.0, Latest ROC: 0.0
+2024-11-18 14:54:01,397 - [2024-11-18 14:54:01.397555] Signal for EURUSD=X: HOLD
+2024-11-18 14:54:46,729 - Latest Close: Ticker
+EURCHF=X    0.93571
+Name: 2024-11-18 19:54:00+00:00, dtype: float64, Latest RSI: 50.0, Latest ROC: -1.0013580322265625e-05
+2024-11-18 14:54:46,729 - [2024-11-18 14:54:46.729944] Signal for EURCHF=X: SELL
+2024-11-18 14:55:46,995 - Latest Close: Ticker
+EURCHF=X    0.93576
+Name: 2024-11-18 19:55:00+00:00, dtype: float64, Latest RSI: 54.90241907210471, Latest ROC: 5.0008296966552734e-05
+2024-11-18 14:55:46,997 - [2024-11-18 14:55:46.996832] Signal for EURCHF=X: BUY
+2024-11-18 14:56:47,279 - Latest Close: Ticker
+EURCHF=X    0.93575
+Name: 2024-11-18 19:56:00+00:00, dtype: float64, Latest RSI: 51.06517879786964, Latest ROC: 2.002716064453125e-05
+2024-11-18 14:56:47,280 - [2024-11-18 14:56:47.280669] Signal for EURCHF=X: BUY
+2024-11-18 14:57:47,519 - Latest Close: Ticker
+EURCHF=X    0.93572
+Name: 2024-11-18 19:57:00+00:00, dtype: float64, Latest RSI: 57.450856055802156, Latest ROC: -5.996227264404297e-05
+2024-11-18 14:57:47,520 - [2024-11-18 14:57:47.520367] Signal for EURCHF=X: SELL
+2024-11-18 14:58:47,767 - Latest Close: Ticker
+EURCHF=X    0.93578
+Name: 2024-11-18 19:58:00+00:00, dtype: float64, Latest RSI: 62.216924910607865, Latest ROC: -3.0040740966796875e-05
+2024-11-18 14:58:47,768 - [2024-11-18 14:58:47.768405] Signal for EURCHF=X: SELL
+2024-11-18 14:59:48,012 - Latest Close: Ticker
+EURCHF=X    0.93567
+Name: 2024-11-18 19:59:00+00:00, dtype: float64, Latest RSI: 46.154727793696274, Latest ROC: -0.0001099705696105957
+2024-11-18 14:59:48,012 - [2024-11-18 14:59:48.012839] Signal for EURCHF=X: SELL
+2024-11-18 15:00:48,357 - Latest Close: Ticker
+EURCHF=X    0.93568
+Name: 2024-11-18 20:00:00+00:00, dtype: float64, Latest RSI: 47.99761620977354, Latest ROC: 0.0
+2024-11-18 15:00:48,358 - [2024-11-18 15:00:48.358918] Signal for EURCHF=X: HOLD
+2024-11-18 15:01:48,609 - Latest Close: Ticker
+EURCHF=X    0.93557
+Name: 2024-11-18 20:01:00+00:00, dtype: float64, Latest RSI: 36.21043978627209, Latest ROC: -6.002187728881836e-05
+2024-11-18 15:01:48,609 - [2024-11-18 15:01:48.609639] Signal for EURCHF=X: SELL
+2024-11-18 15:02:32,661 - Latest Close: Ticker
+EURUSD=X    1.059659
+Name: 2024-11-18 20:02:00+00:00, dtype: float64, Latest RSI: 79.99575281376087, ROC_1min: 0.0, ROC_2min: 0.0002244710922241211
+2024-11-18 15:02:32,662 - [2024-11-18 15:02:32.662592] Signal for EURUSD=X: HOLD
+2024-11-18 15:03:32,923 - Latest Close: Ticker
+EURUSD=X    1.059771
+Name: 2024-11-18 20:03:00+00:00, dtype: float64, Latest RSI: 79.99575281376087, ROC_1min: 0.00011229515075683594, ROC_2min: 0.00011229515075683594
+2024-11-18 15:03:32,923 - [2024-11-18 15:03:32.923766] Signal for EURUSD=X: SELL
+2024-11-18 15:04:33,184 - Latest Close: Ticker
+EURUSD=X    1.059659
+Name: 2024-11-18 20:04:00+00:00, dtype: float64, Latest RSI: 66.6607680056627, ROC_1min: -0.00011229515075683594, ROC_2min: 0.0
+2024-11-18 15:04:33,185 - [2024-11-18 15:04:33.185409] Signal for EURUSD=X: HOLD
+2024-11-18 15:05:33,461 - Latest Close: Ticker
+EURUSD=X    1.059547
+Name: 2024-11-18 20:05:00+00:00, dtype: float64, Latest RSI: 57.14502427184466, ROC_1min: -0.00011217594146728516, ROC_2min: -0.0002244710922241211
+2024-11-18 15:05:33,462 - [2024-11-18 15:05:33.462390] Signal for EURUSD=X: SELL
+2024-11-18 15:06:10,311 - Latest Close: Ticker
+EURCHF=X    0.9356
+Name: 2024-11-18 20:06:00+00:00, dtype: float64, Latest RSI: 27.27518959913327, ROC_1min: 0.0, ROC_2min: 0.0
+2024-11-18 15:06:10,312 - [2024-11-18 15:06:10.312365] Signal for EURCHF=X: HOLD
+2024-11-18 15:07:10,545 - Latest Close: Ticker
+EURCHF=X    0.9356
+Name: 2024-11-18 20:07:00+00:00, dtype: float64, Latest RSI: 34.21135152085293, ROC_1min: -1.0013580322265625e-05, ROC_2min: 0.0
+2024-11-18 15:07:10,546 - [2024-11-18 15:07:10.545985] Signal for EURCHF=X: HOLD
+2024-11-18 15:08:10,798 - Latest Close: Ticker
+EURCHF=X    0.93561
+Name: 2024-11-18 20:08:00+00:00, dtype: float64, Latest RSI: 36.84540608341173, ROC_1min: 1.0013580322265625e-05, ROC_2min: 0.0
+2024-11-18 15:08:10,799 - [2024-11-18 15:08:10.799640] Signal for EURCHF=X: HOLD
+2024-11-18 15:09:11,105 - Latest Close: Ticker
+EURCHF=X    0.9356
+Name: 2024-11-18 20:09:00+00:00, dtype: float64, Latest RSI: 32.44244083078409, ROC_1min: -1.0013580322265625e-05, ROC_2min: 0.0
+2024-11-18 15:09:11,106 - [2024-11-18 15:09:11.106360] Signal for EURCHF=X: HOLD
+2024-11-18 15:10:29,931 - Latest Close: Ticker
+AUDJPY=X    100.624001
+Name: 2024-11-18 20:10:00+00:00, dtype: float64, Latest RSI: 35.417991099809285, ROC_1min: 0.0149993896484375, ROC_2min: 0.00800323486328125
+2024-11-18 15:10:29,932 - [2024-11-18 15:10:29.931972] Signal for AUDJPY=X: BUY
+2024-11-18 15:11:30,284 - Latest Close: Ticker
+AUDJPY=X    100.625
+Name: 2024-11-18 20:11:00+00:00, dtype: float64, Latest RSI: 29.213097891308067, ROC_1min: -0.00099945068359375, ROC_2min: 0.01599884033203125
+2024-11-18 15:11:30,285 - [2024-11-18 15:11:30.285283] Signal for AUDJPY=X: HOLD
+2024-11-18 15:12:30,580 - Latest Close: Ticker
+AUDJPY=X    100.624001
+Name: 2024-11-18 20:12:00+00:00, dtype: float64, Latest RSI: 31.326408677268134, ROC_1min: 0.0, ROC_2min: -0.0019989013671875
+2024-11-18 15:12:30,580 - [2024-11-18 15:12:30.580899] Signal for AUDJPY=X: HOLD
+2024-11-18 15:13:30,851 - Latest Close: Ticker
+AUDJPY=X    100.628998
+Name: 2024-11-18 20:13:00+00:00, dtype: float64, Latest RSI: 36.956882255389715, ROC_1min: -0.0030059814453125, ROC_2min: 0.00499725341796875
+2024-11-18 15:13:30,852 - [2024-11-18 15:13:30.852521] Signal for AUDJPY=X: HOLD
+2024-11-18 15:14:31,146 - Latest Close: Ticker
+AUDJPY=X    100.632004
+Name: 2024-11-18 20:14:00+00:00, dtype: float64, Latest RSI: 33.33625602805786, ROC_1min: 0.0030059814453125, ROC_2min: 0.0
+2024-11-18 15:14:31,148 - [2024-11-18 15:14:31.148130] Signal for AUDJPY=X: BUY
+2024-11-18 15:15:31,467 - Latest Close: Ticker
+AUDJPY=X    100.623001
+Name: 2024-11-18 20:15:00+00:00, dtype: float64, Latest RSI: 30.95367847411444, ROC_1min: -0.00499725341796875, ROC_2min: -0.0059967041015625
+2024-11-18 15:15:31,467 - [2024-11-18 15:15:31.467633] Signal for AUDJPY=X: HOLD
+2024-11-18 15:17:24,071 - 
+1 Failed download:
+2024-11-18 15:17:24,072 - ['AUDJPY=X']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=5d) (Yahoo error = "Invalid input - interval=30s is not supported. Valid intervals: [1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo]")')
+2024-11-18 15:17:24,080 - Error: Data is empty.
+2024-11-18 15:17:24,081 - No data received. Retrying...
+2024-11-18 15:21:12,157 - Error fetching data from Alpaca: 'REST' object has no attribute 'get_barset'
+2024-11-18 15:21:12,157 - No data received. Retrying...
+2024-11-18 15:21:42,161 - Error fetching data from Alpaca: 'REST' object has no attribute 'get_barset'
+2024-11-18 15:21:42,161 - No data received. Retrying...
+2024-11-18 18:22:28,442 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:23:57,831 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:24:57,836 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:25:57,844 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:26:57,858 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:27:57,861 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:28:57,869 - An error occurred: name 'TIME_INTERVAL' is not defined
+2024-11-18 18:29:25,998 - Latest Close: Ticker
+AUDJPY=X    100.474998
+Name: 2024-11-18 23:29:00+00:00, dtype: float64, Latest RSI: 46.48999531553236, ROC_1min: 0.00299835205078125, ROC_2min: 0.01799774169921875
+2024-11-18 18:29:25,999 - [2024-11-18 18:29:25.999221] Signal for AUDJPY=X: BUY
+2024-11-18 18:30:26,318 - Latest Close: Ticker
+AUDJPY=X    100.489998
+Name: 2024-11-18 23:30:00+00:00, dtype: float64, Latest RSI: 50.406251938224905, ROC_1min: 0.00799560546875, ROC_2min: 0.01799774169921875
+2024-11-18 18:30:26,318 - [2024-11-18 18:30:26.318874] Signal for AUDJPY=X: BUY
+2024-11-18 18:31:26,716 - Latest Close: Ticker
+AUDJPY=X    100.484001
+Name: 2024-11-18 23:31:00+00:00, dtype: float64, Latest RSI: 50.0, ROC_1min: 0.00299835205078125, ROC_2min: 0.0019989013671875
+2024-11-18 18:31:26,718 - [2024-11-18 18:31:26.718280] Signal for AUDJPY=X: BUY
+2024-11-18 18:32:27,071 - Latest Close: Ticker
+AUDJPY=X    100.513
+Name: 2024-11-18 23:32:00+00:00, dtype: float64, Latest RSI: 65.15055192741143, ROC_1min: 0.00800323486328125, ROC_2min: 0.0319976806640625
+2024-11-18 18:32:27,073 - [2024-11-18 18:32:27.073885] Signal for AUDJPY=X: BUY
+2024-11-18 18:33:27,459 - Latest Close: Ticker
+AUDJPY=X    100.537003
+Name: 2024-11-18 23:33:00+00:00, dtype: float64, Latest RSI: 69.53622309790846, ROC_1min: 0.0240020751953125, ROC_2min: 0.03200531005859375
+2024-11-18 18:33:27,460 - [2024-11-18 18:33:27.460326] Signal for AUDJPY=X: SELL
+2024-11-18 18:34:27,781 - Latest Close: Ticker
+AUDJPY=X    100.531998
+Name: 2024-11-18 23:34:00+00:00, dtype: float64, Latest RSI: 64.33851794902122, ROC_1min: 0.00099945068359375, ROC_2min: 0.0189971923828125
+2024-11-18 18:34:27,783 - [2024-11-18 18:34:27.783119] Signal for AUDJPY=X: BUY
+2024-11-18 18:35:28,270 - Latest Close: Ticker
+AUDJPY=X    100.531998
+Name: 2024-11-18 23:35:00+00:00, dtype: float64, Latest RSI: 65.35504024990988, ROC_1min: 0.0, ROC_2min: 0.00099945068359375
+2024-11-18 18:35:28,272 - [2024-11-18 18:35:28.272150] Signal for AUDJPY=X: HOLD
+2024-11-18 18:36:28,673 - Latest Close: Ticker
+AUDJPY=X    100.527
+Name: 2024-11-18 23:36:00+00:00, dtype: float64, Latest RSI: 71.18841329367645, ROC_1min: 0.00099945068359375, ROC_2min: -0.00499725341796875
+2024-11-18 18:36:28,673 - [2024-11-18 18:36:28.673967] Signal for AUDJPY=X: SELL
+2024-11-18 18:37:29,033 - Latest Close: Ticker
+AUDJPY=X    100.525002
+Name: 2024-11-18 23:37:00+00:00, dtype: float64, Latest RSI: 71.66836215666328, ROC_1min: 0.00299835205078125, ROC_2min: -0.00099945068359375
+2024-11-18 18:37:29,034 - [2024-11-18 18:37:29.034259] Signal for AUDJPY=X: SELL
+2024-11-18 18:38:29,372 - Latest Close: Ticker
+AUDJPY=X    100.510002
+Name: 2024-11-18 23:38:00+00:00, dtype: float64, Latest RSI: 72.17541299011478, ROC_1min: -0.00699615478515625, ROC_2min: -0.01200103759765625
+2024-11-18 18:38:29,373 - [2024-11-18 18:38:29.373478] Signal for AUDJPY=X: HOLD
+2024-11-18 18:39:29,987 - Latest Close: Ticker
+AUDJPY=X    100.508003
+Name: 2024-11-18 23:39:00+00:00, dtype: float64, Latest RSI: 70.9422888816433, ROC_1min: -0.00699615478515625, ROC_2min: -0.00899505615234375
+2024-11-18 18:39:29,987 - [2024-11-18 18:39:29.987719] Signal for AUDJPY=X: HOLD
+2024-11-18 18:40:30,368 - Latest Close: Ticker
+AUDJPY=X    100.507004
+Name: 2024-11-18 23:40:00+00:00, dtype: float64, Latest RSI: 75.2227923305428, ROC_1min: 0.00200653076171875, ROC_2min: -0.00799560546875
+2024-11-18 18:40:30,370 - [2024-11-18 18:40:30.370004] Signal for AUDJPY=X: SELL
+2024-11-18 18:41:30,716 - Latest Close: Ticker
+AUDJPY=X    100.513
+Name: 2024-11-18 23:41:00+00:00, dtype: float64, Latest RSI: 73.72947109789214, ROC_1min: 0.0110015869140625, ROC_2min: 0.00800323486328125
+2024-11-18 18:41:30,716 - [2024-11-18 18:41:30.716818] Signal for AUDJPY=X: SELL
+2024-11-18 18:42:31,173 - Latest Close: Ticker
+AUDJPY=X    100.547997
+Name: 2024-11-18 23:42:00+00:00, dtype: float64, Latest RSI: 77.53635207607674, ROC_1min: 0.024993896484375, ROC_2min: 0.04599761962890625
+2024-11-18 18:42:31,173 - [2024-11-18 18:42:31.173723] Signal for AUDJPY=X: SELL
+2024-11-18 18:42:42,903 - Close=Ticker
+AUDJPY=X    100.547997
+Name: 2024-11-18 23:42:00+00:00, dtype: float64, RSI=77.53635207607674, ROC_1min=0.024993896484375, ROC_2min=0.04599761962890625, ROC_5min=0.03099822998046875, ROC_10min=0.03499603271484375
+2024-11-18 18:42:42,904 - [2024-11-18 18:42:42.904622] Signal for AUDJPY=X: SELL
+2024-11-18 18:43:43,298 - Close=Ticker
+AUDJPY=X    100.546997
+Name: 2024-11-18 23:43:00+00:00, dtype: float64, RSI=75.59026734755182, ROC_1min=0.0019989013671875, ROC_2min=0.02399444580078125, ROC_5min=0.0319976806640625, ROC_10min=0.01599884033203125
+2024-11-18 18:43:43,299 - [2024-11-18 18:43:43.299045] Signal for AUDJPY=X: SELL
+2024-11-18 18:44:43,655 - Close=Ticker
+AUDJPY=X    100.540001
+Name: 2024-11-18 23:44:00+00:00, dtype: float64, RSI=72.86922576447625, ROC_1min=-0.003997802734375, ROC_2min=-0.00499725341796875, ROC_5min=0.035003662109375, ROC_10min=0.00800323486328125
+2024-11-18 18:44:43,656 - [2024-11-18 18:44:43.656429] Signal for AUDJPY=X: HOLD
+2024-11-18 18:45:44,099 - Close=Ticker
+AUDJPY=X    100.533997
+Name: 2024-11-18 23:45:00+00:00, dtype: float64, RSI=61.9822205409495, ROC_1min=-0.01500701904296875, ROC_2min=-0.01000213623046875, ROC_5min=0.0319976806640625, ROC_10min=0.00799560546875
+2024-11-18 18:45:44,100 - [2024-11-18 18:45:44.100444] Signal for AUDJPY=X: HOLD
+2024-11-18 18:46:44,523 - Close=Ticker
+AUDJPY=X    100.532997
+Name: 2024-11-18 23:46:00+00:00, dtype: float64, RSI=58.76999263869371, ROC_1min=-0.01000213623046875, ROC_2min=-0.0160064697265625, ROC_5min=0.0099945068359375, ROC_10min=0.01099395751953125
+2024-11-18 18:46:44,524 - [2024-11-18 18:46:44.524437] Signal for AUDJPY=X: HOLD
+2024-11-18 18:47:45,004 - Close=Ticker
+AUDJPY=X    100.529999
+Name: 2024-11-18 23:47:00+00:00, dtype: float64, RSI=49.49526084611235, ROC_1min=-0.009002685546875, ROC_2min=-0.01300048828125, ROC_5min=-0.0149993896484375, ROC_10min=0.01300048828125
+2024-11-18 18:47:45,005 - [2024-11-18 18:47:45.005330] Signal for AUDJPY=X: SELL
+2024-11-18 18:48:45,394 - Close=Ticker
+AUDJPY=X    100.529999
+Name: 2024-11-18 23:48:00+00:00, dtype: float64, RSI=48.98022730811147, ROC_1min=-0.00800323486328125, ROC_2min=-0.009002685546875, ROC_5min=-0.01399993896484375, ROC_10min=0.0149993896484375
+2024-11-18 18:48:45,394 - [2024-11-18 18:48:45.394783] Signal for AUDJPY=X: SELL
+2024-11-18 18:49:45,784 - Close=Ticker
+AUDJPY=X    100.526001
+Name: 2024-11-18 23:49:00+00:00, dtype: float64, RSI=50.0, ROC_1min=-0.00299835205078125, ROC_2min=-0.01200103759765625, ROC_5min=-0.02300262451171875, ROC_10min=0.02100372314453125
+2024-11-18 18:49:45,785 - [2024-11-18 18:49:45.785019] Signal for AUDJPY=X: SELL
+2024-11-18 18:50:46,182 - Close=Ticker
+AUDJPY=X    100.539001
+Name: 2024-11-18 23:50:00+00:00, dtype: float64, RSI=58.41389728096677, ROC_1min=0.0110015869140625, ROC_2min=0.01000213623046875, ROC_5min=-0.003997802734375, ROC_10min=0.0370025634765625
+2024-11-18 18:50:46,183 - [2024-11-18 18:50:46.183196] Signal for AUDJPY=X: HOLD
+2024-11-18 18:51:46,566 - Close=Ticker
+AUDJPY=X    100.557999
+Name: 2024-11-18 23:51:00+00:00, dtype: float64, RSI=67.82539471938438, ROC_1min=0.01300048828125, ROC_2min=0.029998779296875, ROC_5min=0.0189971923828125, ROC_10min=0.03499603271484375
+2024-11-18 18:51:46,566 - [2024-11-18 18:51:46.566747] Signal for AUDJPY=X: BUY
+2024-11-18 18:52:47,235 - Close=Ticker
+AUDJPY=X    100.574997
+Name: 2024-11-18 23:52:00+00:00, dtype: float64, RSI=73.07511737089202, ROC_1min=0.01300048828125, ROC_2min=0.029998779296875, ROC_5min=0.03699493408203125, ROC_10min=0.029998779296875
+2024-11-18 18:52:47,238 - [2024-11-18 18:52:47.238710] Signal for AUDJPY=X: SELL
+2024-11-18 18:53:47,775 - Close=Ticker
+AUDJPY=X    100.577003
+Name: 2024-11-18 23:53:00+00:00, dtype: float64, RSI=79.50850425212606, ROC_1min=0.00200653076171875, ROC_2min=0.01500701904296875, ROC_5min=0.048004150390625, ROC_10min=0.0330047607421875
+2024-11-18 18:53:47,777 - [2024-11-18 18:53:47.777864] Signal for AUDJPY=X: SELL
+2024-11-18 18:54:48,241 - Close=Ticker
+AUDJPY=X    100.569
+Name: 2024-11-18 23:54:00+00:00, dtype: float64, RSI=76.37554060547814, ROC_1min=-0.00800323486328125, ROC_2min=-0.0059967041015625, ROC_5min=0.0410003662109375, ROC_10min=0.01999664306640625
+2024-11-18 18:54:48,241 - [2024-11-18 18:54:48.241805] Signal for AUDJPY=X: HOLD
+2024-11-18 18:55:48,580 - Close=Ticker
+AUDJPY=X    100.574997
+Name: 2024-11-18 23:55:00+00:00, dtype: float64, RSI=73.63201331576393, ROC_1min=0.00499725341796875, ROC_2min=-0.00200653076171875, ROC_5min=0.029998779296875, ROC_10min=0.0319976806640625
+2024-11-18 18:55:48,581 - [2024-11-18 18:55:48.581741] Signal for AUDJPY=X: SELL
+2024-11-18 18:56:48,980 - Close=Ticker
+AUDJPY=X    100.575996
+Name: 2024-11-18 23:56:00+00:00, dtype: float64, RSI=67.41235964686723, ROC_1min=0.00099945068359375, ROC_2min=0.0059967041015625, ROC_5min=0.01399993896484375, ROC_10min=0.03699493408203125
+2024-11-18 18:56:48,981 - [2024-11-18 18:56:48.981424] Signal for AUDJPY=X: BUY
+2024-11-18 18:57:49,393 - Close=Ticker
+AUDJPY=X    100.587997
+Name: 2024-11-18 23:57:00+00:00, dtype: float64, RSI=71.99633839347014, ROC_1min=0.0, ROC_2min=0.01300048828125, ROC_5min=0.01300048828125, ROC_10min=0.04999542236328125
+2024-11-18 18:57:49,394 - [2024-11-18 18:57:49.394058] Signal for AUDJPY=X: HOLD
+2024-11-18 18:58:55,185 - Close=Ticker
+AUDJPY=X    100.577003
+Name: 2024-11-18 23:58:00+00:00, dtype: float64, RSI=64.3006442872515, ROC_1min=-0.0099945068359375, ROC_2min=-0.01099395751953125, ROC_5min=0.0, ROC_10min=0.048004150390625
+2024-11-18 18:58:55,186 - [2024-11-18 18:58:55.186009] Signal for AUDJPY=X: HOLD
+2024-11-18 19:00:02,918 - Close=Ticker
+AUDJPY=X    100.585999
+Name: 2024-11-18 23:58:00+00:00, dtype: float64, RSI=69.80295862143868, ROC_1min=-0.00099945068359375, ROC_2min=-0.0019989013671875, ROC_5min=0.00899505615234375, ROC_10min=0.05699920654296875
+2024-11-18 19:00:02,918 - [2024-11-18 19:00:02.918886] Signal for AUDJPY=X: HOLD
+2024-11-18 19:01:10,410 - Close=Ticker
+AUDJPY=X    100.528
+Name: 2024-11-19 00:01:00+00:00, dtype: float64, RSI=43.613168049194236, ROC_1min=-0.00800323486328125, ROC_2min=-0.0579986572265625, ROC_5min=-0.0469970703125, ROC_10min=-0.016998291015625
+2024-11-18 19:01:10,411 - [2024-11-18 19:01:10.411692] Signal for AUDJPY=X: SELL
+2024-11-18 19:02:10,802 - Close=Ticker
+AUDJPY=X    100.558998
+Name: 2024-11-19 00:02:00+00:00, dtype: float64, RSI=53.894947100760284, ROC_1min=0.0, ROC_2min=0.0229949951171875, ROC_5min=-0.02899932861328125, ROC_10min=-0.00299835205078125
+2024-11-18 19:02:10,803 - [2024-11-18 19:02:10.803250] Signal for AUDJPY=X: HOLD
+2024-11-18 19:03:11,150 - Close=Ticker
+AUDJPY=X    100.550003
+Name: 2024-11-19 00:03:00+00:00, dtype: float64, RSI=50.89495149251098, ROC_1min=0.00600433349609375, ROC_2min=-0.00899505615234375, ROC_5min=-0.03699493408203125, ROC_10min=-0.024993896484375
+2024-11-18 19:03:11,151 - [2024-11-18 19:03:11.151084] Signal for AUDJPY=X: HOLD
+2024-11-18 19:03:27,728 - Close=Ticker
+AUDJPY=X    100.558998
+Name: 2024-11-19 00:03:00+00:00, dtype: float64, RSI=58.33333333333334, ROC_1min=0.0149993896484375, ROC_2min=0.0, ROC_5min=-0.0279998779296875, ROC_10min=-0.01599884033203125
+2024-11-18 19:03:27,729 - [2024-11-18 19:03:27.729166] Signal for AUDJPY=X: HOLD
+2024-11-18 19:04:28,163 - Close=Ticker
+AUDJPY=X    100.478996
+Name: 2024-11-19 00:04:00+00:00, dtype: float64, RSI=39.30034982508746, ROC_1min=-0.05800628662109375, ROC_2min=-0.06500244140625, ROC_5min=-0.10700225830078125, ROC_10min=-0.0980072021484375
+2024-11-18 19:04:28,163 - [2024-11-18 19:04:28.163641] Signal for AUDJPY=X: SELL
+2024-11-18 19:05:28,515 - Close=Ticker
+AUDJPY=X    100.441002
+Name: 2024-11-19 00:05:00+00:00, dtype: float64, RSI=29.200109866634122, ROC_1min=-0.0319976806640625, ROC_2min=-0.09600067138671875, ROC_5min=-0.095001220703125, ROC_10min=-0.128997802734375
+2024-11-18 19:05:28,516 - [2024-11-18 19:05:28.516620] Signal for AUDJPY=X: HOLD
+2024-11-18 19:06:28,881 - Close=Ticker
+AUDJPY=X    100.444
+Name: 2024-11-19 00:06:00+00:00, dtype: float64, RSI=24.348172228488025, ROC_1min=-0.01000213623046875, ROC_2min=-0.02899932861328125, ROC_5min=-0.11499786376953125, ROC_10min=-0.1309967041015625
+2024-11-18 19:06:28,882 - [2024-11-18 19:06:28.882495] Signal for AUDJPY=X: HOLD
+2024-11-18 19:07:38,892 - 
+1 Failed download:
+2024-11-18 19:07:38,892 - ['AUDJPY=X']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+2024-11-18 19:07:38,897 - Error: Data is empty.
+2024-11-18 19:07:38,897 - No data received. Retrying...
+2024-11-18 19:08:39,234 - Close=Ticker
+AUDJPY=X    100.443001
+Name: 2024-11-19 00:08:00+00:00, dtype: float64, RSI=25.54577856983738, ROC_1min=-0.01599884033203125, ROC_2min=0.01300048828125, ROC_5min=-0.09400177001953125, ROC_10min=-0.1439971923828125
+2024-11-18 19:08:39,234 - [2024-11-18 19:08:39.234879] Signal for AUDJPY=X: HOLD
+2024-11-18 19:09:39,633 - Close=Ticker
+AUDJPY=X    100.438004
+Name: 2024-11-19 00:09:00+00:00, dtype: float64, RSI=25.734242194731962, ROC_1min=-0.01299285888671875, ROC_2min=-0.02099609375, ROC_5min=-0.03499603271484375, ROC_10min=-0.1479949951171875
+2024-11-18 19:09:39,634 - [2024-11-18 19:09:39.634001] Signal for AUDJPY=X: HOLD
+2024-11-18 19:10:39,886 - Close=Ticker
+AUDJPY=X    100.434998
+Name: 2024-11-19 00:10:00+00:00, dtype: float64, RSI=24.99863752793067, ROC_1min=0.00499725341796875, ROC_2min=-0.01599884033203125, ROC_5min=-0.01900482177734375, ROC_10min=-0.10100555419921875
+2024-11-18 19:10:39,886 - [2024-11-18 19:10:39.886713] Signal for AUDJPY=X: BUY
+2024-11-18 19:11:40,093 - Close=Ticker
+AUDJPY=X    100.427002
+Name: 2024-11-19 00:11:00+00:00, dtype: float64, RSI=20.073179033356027, ROC_1min=0.0019989013671875, ROC_2min=-0.00299835205078125, ROC_5min=-0.00299835205078125, ROC_10min=-0.13199615478515625
+2024-11-18 19:11:40,093 - [2024-11-18 19:11:40.093968] Signal for AUDJPY=X: BUY
+2024-11-18 19:12:40,318 - Close=Ticker
+AUDJPY=X    100.436996
+Name: 2024-11-19 00:12:00+00:00, dtype: float64, RSI=23.59025333798995, ROC_1min=-0.0030059814453125, ROC_2min=0.011993408203125, ROC_5min=-0.022003173828125, ROC_10min=-0.10700225830078125
+2024-11-18 19:12:40,320 - [2024-11-18 19:12:40.320678] Signal for AUDJPY=X: HOLD
+2024-11-18 19:13:40,601 - Close=Ticker
+AUDJPY=X    100.427002
+Name: 2024-11-19 00:13:00+00:00, dtype: float64, RSI=24.102793518242365, ROC_1min=-0.01999664306640625, ROC_2min=-0.01300048828125, ROC_5min=-0.02399444580078125, ROC_10min=-0.1100006103515625
+2024-11-18 19:13:40,602 - [2024-11-18 19:13:40.602309] Signal for AUDJPY=X: HOLD
+2024-11-18 19:14:40,831 - Close=Ticker
+AUDJPY=X    100.429001
+Name: 2024-11-19 00:14:00+00:00, dtype: float64, RSI=29.017683492414946, ROC_1min=-0.00299835205078125, ROC_2min=-0.01799774169921875, ROC_5min=-0.00099945068359375, ROC_10min=-0.04399871826171875
+2024-11-18 19:14:40,837 - [2024-11-18 19:14:40.837720] Signal for AUDJPY=X: HOLD
+2024-11-18 19:15:41,032 - Close=Ticker
+AUDJPY=X    100.413002
+Name: 2024-11-19 00:15:00+00:00, dtype: float64, RSI=20.56362293871524, ROC_1min=-0.00899505615234375, ROC_2min=-0.0189971923828125, ROC_5min=-0.01200103759765625, ROC_10min=-0.0410003662109375
+2024-11-18 19:15:41,033 - [2024-11-18 19:15:41.033816] Signal for AUDJPY=X: HOLD
+2024-11-18 19:16:41,225 - Close=Ticker
+AUDJPY=X    100.393997
+Name: 2024-11-19 00:16:00+00:00, dtype: float64, RSI=20.23676163371583, ROC_1min=-0.00200653076171875, ROC_2min=-0.0279998779296875, ROC_5min=-0.0460052490234375, ROC_10min=-0.03600311279296875
+2024-11-18 19:16:41,226 - [2024-11-18 19:16:41.226217] Signal for AUDJPY=X: HOLD
+2024-11-18 19:17:41,473 - Close=Ticker
+AUDJPY=X    100.396004
+Name: 2024-11-19 00:17:00+00:00, dtype: float64, RSI=23.193408952452785, ROC_1min=0.01000213623046875, ROC_2min=0.0, ROC_5min=-0.050994873046875, ROC_10min=-0.06299591064453125
+2024-11-18 19:17:41,473 - [2024-11-18 19:17:41.473958] Signal for AUDJPY=X: BUY
+2024-11-18 19:18:41,682 - Close=Ticker
+AUDJPY=X    100.431999
+Name: 2024-11-19 00:18:00+00:00, dtype: float64, RSI=41.27597402597403, ROC_1min=0.00499725341796875, ROC_2min=0.04599761962890625, ROC_5min=0.0, ROC_10min=-0.0189971923828125
+2024-11-18 19:18:41,683 - [2024-11-18 19:18:41.683536] Signal for AUDJPY=X: HOLD
+2024-11-18 19:19:41,991 - Close=Ticker
+AUDJPY=X    100.427002
+Name: 2024-11-19 00:19:00+00:00, dtype: float64, RSI=43.66156822008096, ROC_1min=0.00099945068359375, ROC_2min=0.0, ROC_5min=0.0050048828125, ROC_10min=-0.00299835205078125
+2024-11-18 19:19:41,991 - [2024-11-18 19:19:41.991960] Signal for AUDJPY=X: HOLD
+2024-11-18 19:58:14,274 - 
+1 Failed download:
+2024-11-18 19:58:14,275 - ['APPLE=X']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")')
+2024-11-18 19:58:14,283 - Error: Data is empty.
+2024-11-18 19:58:14,283 - No data received. Retrying...
+2024-11-18 19:59:18,347 - 
+1 Failed download:
+2024-11-18 19:59:18,347 - ['AAPL=X']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")')
+2024-11-18 19:59:18,352 - Error: Data is empty.
+2024-11-18 19:59:18,352 - No data received. Retrying...
+2024-11-18 20:00:03,508 - 
+1 Failed download:
+2024-11-18 20:00:03,509 - ['AAPL=X']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")')
+2024-11-18 20:00:03,515 - Error: Data is empty.
+2024-11-18 20:00:03,515 - No data received. Retrying...
+2024-11-18 20:01:02,689 - 
+1 Failed download:
+2024-11-18 20:01:02,691 - ['AAPL=X']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")')
+2024-11-18 20:01:02,698 - Error: Data is empty.
+2024-11-18 20:01:02,698 - No data received. Retrying...
+2024-11-18 20:01:41,084 - Close=Ticker
+USDJPY=X    154.375
+Name: 2024-11-19 01:01:00+00:00, dtype: float64, RSI=50.13146362839615, ROC_1min=-0.0110015869140625, ROC_2min=0.0019989013671875, ROC_5min=-0.061004638671875, ROC_10min=-0.037994384765625
+2024-11-18 20:01:41,085 - [2024-11-18 20:01:41.085244] Signal for USDJPY=X: HOLD
+2024-11-18 20:02:41,529 - Close=Ticker
+USDJPY=X    154.337006
+Name: 2024-11-19 01:02:00+00:00, dtype: float64, RSI=41.73234460535001, ROC_1min=-0.0410003662109375, ROC_2min=-0.0489959716796875, ROC_5min=-0.0829925537109375, ROC_10min=0.0160064697265625
+2024-11-18 20:02:41,531 - [2024-11-18 20:02:41.531204] Signal for USDJPY=X: SELL
+2024-11-18 20:03:42,205 - Close=Ticker
+USDJPY=X    154.341995
+Name: 2024-11-19 01:03:00+00:00, dtype: float64, RSI=41.8546845124283, ROC_1min=0.00799560546875, ROC_2min=-0.0360107421875, ROC_5min=-0.0410003662109375, ROC_10min=0.0229949951171875
+2024-11-18 20:03:42,209 - [2024-11-18 20:03:42.209198] Signal for USDJPY=X: HOLD
+2024-11-18 20:04:42,554 - Close=Ticker
+USDJPY=X    154.291
+Name: 2024-11-19 01:04:00+00:00, dtype: float64, RSI=32.09885845609011, ROC_1min=-0.0410003662109375, ROC_2min=-0.042999267578125, ROC_5min=-0.082000732421875, ROC_10min=-0.1300048828125
+2024-11-18 20:04:42,557 - [2024-11-18 20:04:42.557905] Signal for USDJPY=X: SELL
+2024-11-18 20:05:43,010 - Close=Ticker
+USDJPY=X    154.306
+Name: 2024-11-19 01:05:00+00:00, dtype: float64, RSI=35.42324962581074, ROC_1min=-0.0099945068359375, ROC_2min=-0.0260009765625, ROC_5min=-0.0800018310546875, ROC_10min=-0.126007080078125
+2024-11-18 20:05:43,011 - [2024-11-18 20:05:43.011335] Signal for USDJPY=X: SELL
+2024-11-18 20:06:43,477 - Close=Ticker
+USDJPY=X    154.272995
+Name: 2024-11-19 01:06:00+00:00, dtype: float64, RSI=42.20747052412563, ROC_1min=-0.0200042724609375, ROC_2min=-0.042999267578125, ROC_5min=-0.105010986328125, ROC_10min=-0.1630096435546875
+2024-11-18 20:06:43,478 - [2024-11-18 20:06:43.478215] Signal for USDJPY=X: SELL
+2024-11-18 20:07:43,799 - Close=Ticker
+USDJPY=X    154.270996
+Name: 2024-11-19 01:07:00+00:00, dtype: float64, RSI=42.20747052412563, ROC_1min=-0.001007080078125, ROC_2min=-0.022003173828125, ROC_5min=-0.0630035400390625, ROC_10min=-0.1490020751953125
+2024-11-18 20:07:43,800 - [2024-11-18 20:07:43.800340] Signal for USDJPY=X: SELL
+2024-11-18 20:08:44,080 - Close=Ticker
+USDJPY=X    154.276993
+Name: 2024-11-19 01:08:00+00:00, dtype: float64, RSI=16.035698862818478, ROC_1min=-0.001007080078125, ROC_2min=0.0049896240234375, ROC_5min=-0.0550079345703125, ROC_10min=-0.1060028076171875
+2024-11-18 20:08:44,080 - [2024-11-18 20:08:44.080699] Signal for USDJPY=X: HOLD
+2024-11-18 20:09:44,375 - Close=Ticker
+USDJPY=X    154.266006
+Name: 2024-11-19 01:09:00+00:00, dtype: float64, RSI=11.571882726951614, ROC_1min=0.0019989013671875, ROC_2min=-0.011993408203125, ROC_5min=-0.04998779296875, ROC_10min=-0.10699462890625
+2024-11-18 20:09:44,376 - [2024-11-18 20:09:44.376581] Signal for USDJPY=X: BUY
+2024-11-18 20:10:44,688 - Close=Ticker
+USDJPY=X    154.218994
+Name: 2024-11-19 01:10:00+00:00, dtype: float64, RSI=8.10651584776717, ROC_1min=-0.0470123291015625, ROC_2min=-0.045013427734375, ROC_5min=-0.074005126953125, ROC_10min=-0.1670074462890625
+2024-11-18 20:10:44,691 - [2024-11-18 20:10:44.691010] Signal for USDJPY=X: HOLD
+2024-11-18 20:11:44,967 - Close=Ticker
+USDJPY=X    154.164993
+Name: 2024-11-19 01:11:00+00:00, dtype: float64, RSI=7.06946157007809, ROC_1min=-0.0590057373046875, ROC_2min=-0.10101318359375, ROC_5min=-0.1070098876953125, ROC_10min=-0.2130126953125
+2024-11-18 20:11:44,967 - [2024-11-18 20:11:44.967722] Signal for USDJPY=X: HOLD
+2024-11-18 20:12:45,389 - Close=Ticker
+USDJPY=X    154.158005
+Name: 2024-11-19 01:12:00+00:00, dtype: float64, RSI=8.179703896987917, ROC_1min=0.001007080078125, ROC_2min=-0.0659942626953125, ROC_5min=-0.1199951171875, ROC_10min=-0.175994873046875
+2024-11-18 20:12:45,392 - [2024-11-18 20:12:45.392014] Signal for USDJPY=X: BUY
+2024-11-18 20:13:45,781 - Close=Ticker
+USDJPY=X    154.093002
+Name: 2024-11-19 01:13:00+00:00, dtype: float64, RSI=6.520708937541471, ROC_1min=-0.042999267578125, ROC_2min=-0.063995361328125, ROC_5min=-0.1710052490234375, ROC_10min=-0.2389984130859375
+2024-11-18 20:13:45,782 - [2024-11-18 20:13:45.782209] Signal for USDJPY=X: HOLD
+2024-11-18 22:40:21,617 - Close=Ticker
+USDJPY=X    154.093994
+Name: 2024-11-19 03:38:00+00:00, dtype: float64, RSI=62.83341211425484, ROC_1min=0.01300048828125, ROC_2min=0.0529937744140625, ROC_5min=0.0349884033203125, ROC_10min=0.0739898681640625
+2024-11-18 22:40:21,619 - [2024-11-18 22:40:21.619723] Signal for USDJPY=X: BUY
+2024-11-18 22:41:21,899 - Close=Ticker
+USDJPY=X    154.147003
+Name: 2024-11-19 03:41:00+00:00, dtype: float64, RSI=76.64165103189494, ROC_1min=0.0330047607421875, ROC_2min=0.053009033203125, ROC_5min=0.1070098876953125, ROC_10min=0.1020050048828125
+2024-11-18 22:41:21,899 - [2024-11-18 22:41:21.899922] Signal for USDJPY=X: SELL
+2024-11-18 22:42:22,180 - Close=Ticker
+USDJPY=X    154.171997
+Name: 2024-11-19 03:42:00+00:00, dtype: float64, RSI=77.20197765976927, ROC_1min=0.0189971923828125, ROC_2min=0.0579986572265625, ROC_5min=0.1309967041015625, ROC_10min=0.1479949951171875
+2024-11-18 22:42:22,180 - [2024-11-18 22:42:22.180822] Signal for USDJPY=X: SELL
+2024-11-18 22:43:22,511 - Close=Ticker
+USDJPY=X    154.164001
+Name: 2024-11-19 03:43:00+00:00, dtype: float64, RSI=78.80119636208264, ROC_1min=-0.011993408203125, ROC_2min=0.0110015869140625, ROC_5min=0.0830078125, ROC_10min=0.134002685546875
+2024-11-18 22:43:22,511 - [2024-11-18 22:43:22.511686] Signal for USDJPY=X: HOLD
+2024-11-18 22:44:22,778 - Close=Ticker
+USDJPY=X    154.139008
+Name: 2024-11-19 03:44:00+00:00, dtype: float64, RSI=71.43096702068195, ROC_1min=-0.010986328125, ROC_2min=-0.0369873046875, ROC_5min=0.045013427734375, ROC_10min=0.0800018310546875
+2024-11-18 22:44:22,779 - [2024-11-18 22:44:22.779094] Signal for USDJPY=X: HOLD
+2024-11-18 22:45:23,059 - Close=Ticker
+USDJPY=X    154.128006
+Name: 2024-11-19 03:45:00+00:00, dtype: float64, RSI=65.42824730572887, ROC_1min=0.0040130615234375, ROC_2min=-0.0219879150390625, ROC_5min=0.014007568359375, ROC_10min=0.0680084228515625
+2024-11-18 22:45:23,060 - [2024-11-18 22:45:23.059988] Signal for USDJPY=X: HOLD
+2024-11-18 22:46:23,343 - Close=Ticker
+USDJPY=X    154.115997
+Name: 2024-11-19 03:46:00+00:00, dtype: float64, RSI=65.8616153643778, ROC_1min=0.0189971923828125, ROC_2min=-0.00799560546875, ROC_5min=-0.0370025634765625, ROC_10min=0.0760040283203125
+2024-11-18 22:46:23,344 - [2024-11-18 22:46:23.344711] Signal for USDJPY=X: HOLD
+2024-11-18 22:47:23,632 - Close=Ticker
+USDJPY=X    154.139008
+Name: 2024-11-19 03:47:00+00:00, dtype: float64, RSI=67.7534791252485, ROC_1min=0.0070037841796875, ROC_2min=0.0420074462890625, ROC_5min=-0.0369873046875, ROC_10min=0.0980072021484375
+2024-11-18 22:47:23,632 - [2024-11-18 22:47:23.632931] Signal for USDJPY=X: HOLD
+2024-11-18 22:48:23,897 - Close=Ticker
+USDJPY=X    154.154007
+Name: 2024-11-19 03:48:00+00:00, dtype: float64, RSI=64.35091277890467, ROC_1min=-0.0189971923828125, ROC_2min=0.022003173828125, ROC_5min=0.0040130615234375, ROC_10min=0.0730133056640625
+2024-11-18 22:48:23,898 - [2024-11-18 22:48:23.898415] Signal for USDJPY=X: HOLD
+2024-11-18 22:49:24,171 - Close=Ticker
+USDJPY=X    154.145996
+Name: 2024-11-19 03:49:00+00:00, dtype: float64, RSI=62.28529078385212, ROC_1min=0.0059967041015625, ROC_2min=-0.027008056640625, ROC_5min=0.022003173828125, ROC_10min=0.052001953125
+2024-11-18 22:49:24,171 - [2024-11-18 22:49:24.171953] Signal for USDJPY=X: HOLD
+2024-11-18 22:50:24,435 - Close=Ticker
+USDJPY=X    154.175995
+Name: 2024-11-19 03:50:00+00:00, dtype: float64, RSI=68.88907726868139, ROC_1min=0.0240020751953125, ROC_2min=0.0359954833984375, ROC_5min=0.0789947509765625, ROC_10min=0.0619964599609375
+2024-11-18 22:50:24,436 - [2024-11-18 22:50:24.436409] Signal for USDJPY=X: BUY
+2024-11-18 22:51:24,667 - Close=Ticker
+USDJPY=X    154.201996
+Name: 2024-11-19 03:51:00+00:00, dtype: float64, RSI=70.90880266339028, ROC_1min=0.0179901123046875, ROC_2min=0.0500030517578125, ROC_5min=0.0699920654296875, ROC_10min=0.0489959716796875
+2024-11-18 22:51:24,668 - [2024-11-18 22:51:24.668074] Signal for USDJPY=X: SELL
+2024-11-18 22:52:24,952 - Close=Ticker
+USDJPY=X    154.199997
+Name: 2024-11-19 03:52:00+00:00, dtype: float64, RSI=67.34730192624227, ROC_1min=0.0099945068359375, ROC_2min=0.0159912109375, ROC_5min=0.0269927978515625, ROC_10min=0.0240020751953125
+2024-11-18 22:52:24,953 - [2024-11-18 22:52:24.953325] Signal for USDJPY=X: BUY
+2024-11-18 22:53:25,196 - Close=Ticker
+USDJPY=X    154.192993
+Name: 2024-11-19 03:53:00+00:00, dtype: float64, RSI=65.32501889644746, ROC_1min=0.00299072265625, ROC_2min=0.00299072265625, ROC_5min=0.0529937744140625, ROC_10min=0.042999267578125
+2024-11-18 22:53:25,197 - [2024-11-18 22:53:25.197312] Signal for USDJPY=X: BUY
+2024-11-18 22:54:25,444 - Close=Ticker
+USDJPY=X    154.192001
+Name: 2024-11-19 03:54:00+00:00, dtype: float64, RSI=61.403587043811896, ROC_1min=-0.0200042724609375, ROC_2min=0.0019989013671875, ROC_5min=0.040008544921875, ROC_10min=0.0680084228515625
+2024-11-18 22:54:25,445 - [2024-11-18 22:54:25.445379] Signal for USDJPY=X: HOLD
+2024-11-18 22:55:25,703 - Close=Ticker
+USDJPY=X    154.169006
+Name: 2024-11-19 03:55:00+00:00, dtype: float64, RSI=52.45494968406272, ROC_1min=-0.0229949951171875, ROC_2min=-0.042999267578125, ROC_5min=-0.0149993896484375, ROC_10min=0.0720062255859375
+2024-11-18 22:55:25,704 - [2024-11-18 22:55:25.704526] Signal for USDJPY=X: SELL
+2024-11-18 22:55:53,264 - Close=Ticker
+USDJPY=X    154.186005
+Name: 2024-11-19 03:55:00+00:00, dtype: float64, RSI=55.34047701348082, ROC_1min=-0.0059967041015625, ROC_2min=-0.0260009765625, ROC_5min=0.0019989013671875, ROC_10min=0.0890045166015625
+2024-11-18 22:55:53,265 - [2024-11-18 22:55:53.265527] Signal for USDJPY=X: HOLD
+2024-11-18 22:56:53,529 - Close=Ticker
+USDJPY=X    154.188995
+Name: 2024-11-19 03:56:00+00:00, dtype: float64, RSI=52.264752791068574, ROC_1min=0.0019989013671875, ROC_2min=-0.0030059814453125, ROC_5min=-0.001007080078125, ROC_10min=0.0569915771484375
+2024-11-18 22:56:53,530 - [2024-11-18 22:56:53.530081] Signal for USDJPY=X: HOLD
+2024-11-18 23:00:12,337 - An error occurred: 'ROC_4min'
+2024-11-18 23:01:07,480 - Close=Ticker
+USDJPY=X    154.145996
+Name: 2024-11-19 04:01:00+00:00, dtype: float64, RSI=43.600867678958785, ROC_1min=-0.003997802734375, ROC_2min=-0.0290069580078125, ROC_4min=-0.009002685546875, ROC_7min=-0.0460052490234375
+2024-11-18 23:01:07,481 - [2024-11-18 23:01:07.481192] Signal for USDJPY=X: SELL
+2024-11-18 23:02:07,854 - Close=Ticker
+USDJPY=X    154.151993
+Name: 2024-11-19 04:02:00+00:00, dtype: float64, RSI=53.406726768377254, ROC_1min=0.0019989013671875, ROC_2min=0.0019989013671875, ROC_4min=-0.022003173828125, ROC_7min=-0.035003662109375
+2024-11-18 23:02:07,855 - [2024-11-18 23:02:07.855135] Signal for USDJPY=X: HOLD
+2024-11-18 23:03:08,107 - Close=Ticker
+USDJPY=X    154.143997
+Name: 2024-11-19 04:03:00+00:00, dtype: float64, RSI=47.874066861408636, ROC_1min=-0.0160064697265625, ROC_2min=-0.0059967041015625, ROC_4min=-0.031005859375, ROC_7min=-0.042999267578125
+2024-11-18 23:03:08,108 - [2024-11-18 23:03:08.108719] Signal for USDJPY=X: SELL
+2024-11-18 23:04:08,370 - Close=Ticker
+USDJPY=X    154.153
+Name: 2024-11-19 04:04:00+00:00, dtype: float64, RSI=39.870388833499504, ROC_1min=0.0030059814453125, ROC_2min=-0.0070037841796875, ROC_4min=0.0030059814453125, ROC_7min=-0.0019989013671875
+2024-11-18 23:04:08,371 - [2024-11-18 23:04:08.371214] Signal for USDJPY=X: HOLD
+2024-11-18 23:05:08,654 - Close=Ticker
+USDJPY=X    154.175003
+Name: 2024-11-19 04:05:00+00:00, dtype: float64, RSI=45.56367903240365, ROC_1min=0.001007080078125, ROC_2min=0.0250091552734375, ROC_4min=0.0250091552734375, ROC_7min=0.001007080078125
+2024-11-18 23:05:08,655 - [2024-11-18 23:05:08.655159] Signal for USDJPY=X: BUY
+2024-11-18 23:06:08,950 - Close=Ticker
+USDJPY=X    154.162003
+Name: 2024-11-19 04:06:00+00:00, dtype: float64, RSI=42.633480529907665, ROC_1min=0.0050048828125, ROC_2min=-0.011993408203125, ROC_4min=0.0019989013671875, ROC_7min=-0.01300048828125
+2024-11-18 23:06:08,951 - [2024-11-18 23:06:08.951350] Signal for USDJPY=X: HOLD
+2024-11-18 23:06:38,314 - Close=Ticker
+AUDJPY=X    100.524002
+Name: 2024-11-19 04:06:00+00:00, dtype: float64, RSI=51.259696134367594, ROC_1min=-0.0110015869140625, ROC_2min=-0.00699615478515625, ROC_4min=-0.02899932861328125, ROC_7min=-0.01399993896484375
+2024-11-18 23:06:38,315 - [2024-11-18 23:06:38.315513] Signal for AUDJPY=X: SELL
+2024-11-18 23:07:38,580 - Close=Ticker
+AUDJPY=X    100.532997
+Name: 2024-11-19 04:07:00+00:00, dtype: float64, RSI=52.62981798715203, ROC_1min=0.00499725341796875, ROC_2min=-0.00200653076171875, ROC_4min=-0.0050048828125, ROC_7min=0.0
+2024-11-18 23:07:38,582 - [2024-11-18 23:07:38.582371] Signal for AUDJPY=X: HOLD
+2024-11-18 23:08:38,855 - Close=Ticker
+AUDJPY=X    100.513
+Name: 2024-11-19 04:08:00+00:00, dtype: float64, RSI=51.40086975119412, ROC_1min=-0.01000213623046875, ROC_2min=-0.0149993896484375, ROC_4min=-0.01799774169921875, ROC_7min=-0.02700042724609375
+2024-11-18 23:08:38,858 - [2024-11-18 23:08:38.858264] Signal for AUDJPY=X: SELL
+2024-11-18 23:09:39,109 - Close=Ticker
+AUDJPY=X    100.515999
+Name: 2024-11-19 04:09:00+00:00, dtype: float64, RSI=48.45482425100259, ROC_1min=0.00099945068359375, ROC_2min=-0.0070037841796875, ROC_4min=-0.01900482177734375, ROC_7min=-0.0370025634765625
+2024-11-18 23:09:39,110 - [2024-11-18 23:09:39.110468] Signal for AUDJPY=X: HOLD
+2024-11-18 23:10:39,464 - Close=Ticker
+AUDJPY=X    100.514
+Name: 2024-11-19 04:10:00+00:00, dtype: float64, RSI=46.217948717948715, ROC_1min=0.01300048828125, ROC_2min=-0.00099945068359375, ROC_4min=-0.01399993896484375, ROC_7min=-0.0240020751953125
+2024-11-18 23:10:39,465 - [2024-11-18 23:10:39.465600] Signal for AUDJPY=X: HOLD
+2024-11-18 23:11:39,713 - Close=Ticker
+AUDJPY=X    100.541
+Name: 2024-11-19 04:11:00+00:00, dtype: float64, RSI=54.28540293140086, ROC_1min=0.0149993896484375, ROC_2min=0.04000091552734375, ROC_4min=0.01799774169921875, ROC_7min=0.01000213623046875
+2024-11-18 23:11:39,713 - [2024-11-18 23:11:39.713785] Signal for AUDJPY=X: BUY
+2024-11-18 23:12:07,682 - Close=Ticker
+EURAUD=X    1.62551
+Name: 2024-11-19 04:12:00+00:00, dtype: float64, RSI=66.25713032031592, ROC_1min=-1.0013580322265625e-05, ROC_2min=1.0013580322265625e-05, ROC_4min=-0.00016999244689941406, ROC_7min=3.993511199951172e-05
+2024-11-18 23:12:07,685 - [2024-11-18 23:12:07.685135] Signal for EURAUD=X: HOLD
+2024-11-18 23:13:08,099 - Close=Ticker
+EURAUD=X    1.62559
+Name: 2024-11-19 04:13:00+00:00, dtype: float64, RSI=69.45753033547466, ROC_1min=-1.0013580322265625e-05, ROC_2min=6.99758529663086e-05, ROC_4min=9.000301361083984e-05, ROC_7min=-7.998943328857422e-05
+2024-11-18 23:13:08,100 - [2024-11-18 23:13:08.100888] Signal for EURAUD=X: HOLD
+2024-11-18 23:14:08,388 - Close=Ticker
+EURAUD=X    1.62556
+Name: 2024-11-19 04:14:00+00:00, dtype: float64, RSI=70.1123441567338, ROC_1min=6.008148193359375e-05, ROC_2min=-3.993511199951172e-05, ROC_4min=4.00543212890625e-05, ROC_7min=-0.00011992454528808594
+2024-11-18 23:14:08,388 - [2024-11-18 23:14:08.388724] Signal for EURAUD=X: HOLD
+2024-11-18 23:15:08,656 - Close=Ticker
+EURAUD=X    1.62545
+Name: 2024-11-19 04:15:00+00:00, dtype: float64, RSI=67.59672371312513, ROC_1min=-0.00010001659393310547, ROC_2min=-4.9948692321777344e-05, ROC_4min=-0.0001499652862548828, ROC_7min=-4.9948692321777344e-05
+2024-11-18 23:15:08,657 - [2024-11-18 23:15:08.657135] Signal for EURAUD=X: SELL
+2024-11-18 23:16:08,922 - Close=Ticker
+EURAUD=X    1.62548
+Name: 2024-11-19 04:16:00+00:00, dtype: float64, RSI=62.79021415205489, ROC_1min=-0.00015997886657714844, ROC_2min=-6.99758529663086e-05, ROC_4min=-1.990795135498047e-05, ROC_7min=-3.993511199951172e-05
+2024-11-18 23:16:08,923 - [2024-11-18 23:16:08.923612] Signal for EURAUD=X: SELL
+2024-11-18 23:17:09,173 - Close=Ticker
+EURAUD=X    1.62541
+Name: 2024-11-19 04:17:00+00:00, dtype: float64, RSI=59.65732087227414, ROC_1min=-3.0040740966796875e-05, ROC_2min=-0.0002300739288330078, ROC_4min=-0.00014007091522216797, ROC_7min=-0.0001900196075439453
+2024-11-18 23:17:09,173 - [2024-11-18 23:17:09.173754] Signal for EURAUD=X: SELL
+2024-11-18 23:18:09,436 - Close=Ticker
+EURAUD=X    1.62553
+Name: 2024-11-19 04:18:00+00:00, dtype: float64, RSI=59.44370860927152, ROC_1min=-4.9948692321777344e-05, ROC_2min=9.000301361083984e-05, ROC_4min=-0.0001100301742553711, ROC_7min=3.0040740966796875e-05
+2024-11-18 23:18:09,437 - [2024-11-18 23:18:09.437574] Signal for EURAUD=X: HOLD
+2024-11-18 23:19:09,673 - Close=Ticker
+EURAUD=X    1.62534
+Name: 2024-11-19 04:19:00+00:00, dtype: float64, RSI=59.77623867874267, ROC_1min=-0.00014007091522216797, ROC_2min=-0.00023996829986572266, ROC_4min=-0.00010001659393310547, ROC_7min=-0.00021004676818847656
+2024-11-18 23:19:09,675 - [2024-11-18 23:19:09.675606] Signal for EURAUD=X: SELL
+2024-11-18 23:20:09,933 - Close=Ticker
+EURAUD=X    1.62537
+Name: 2024-11-19 04:20:00+00:00, dtype: float64, RSI=50.994632143984845, ROC_1min=5.0067901611328125e-05, ROC_2min=-0.0001100301742553711, ROC_4min=-0.00020992755889892578, ROC_7min=-0.00027000904083251953
+2024-11-18 23:20:09,934 - [2024-11-18 23:20:09.934534] Signal for EURAUD=X: HOLD
+2024-11-18 23:21:10,207 - Close=Ticker
+EURAUD=X    1.62551
+Name: 2024-11-19 04:21:00+00:00, dtype: float64, RSI=51.313622460983446, ROC_1min=5.996227264404297e-05, ROC_2min=0.0001900196075439453, ROC_4min=2.9921531677246094e-05, ROC_7min=6.99758529663086e-05
+2024-11-18 23:21:10,208 - [2024-11-18 23:21:10.208510] Signal for EURAUD=X: BUY
+2024-11-18 23:22:10,469 - Close=Ticker
+EURAUD=X    1.6253
+Name: 2024-11-19 04:22:00+00:00, dtype: float64, RSI=36.88392932623214, ROC_1min=0.0, ROC_2min=-0.0001499652862548828, ROC_4min=-1.990795135498047e-05, ROC_7min=-0.0002799034118652344
+2024-11-18 23:22:10,474 - [2024-11-18 23:22:10.474084] Signal for EURAUD=X: HOLD
+2024-11-18 23:23:10,791 - Close=Ticker
+EURAUD=X    1.62541
+Name: 2024-11-19 04:23:00+00:00, dtype: float64, RSI=41.29047142967007, ROC_1min=-2.002716064453125e-05, ROC_2min=0.00010991096496582031, ROC_4min=-4.00543212890625e-05, ROC_7min=-7.009506225585938e-05
+2024-11-18 23:23:10,793 - [2024-11-18 23:23:10.793475] Signal for EURAUD=X: HOLD
+2024-11-18 23:24:11,071 - Close=Ticker
+EURAUD=X    1.62531
+Name: 2024-11-19 04:24:00+00:00, dtype: float64, RSI=43.537139150178405, ROC_1min=-8.0108642578125e-05, ROC_2min=-0.00012004375457763672, ROC_4min=9.894371032714844e-06, ROC_7min=-1.0013580322265625e-05
+2024-11-18 23:24:11,074 - [2024-11-18 23:24:11.074791] Signal for EURAUD=X: HOLD
+2024-11-18 23:25:11,616 - Close=Ticker
+EURAUD=X    1.62541
+Name: 2024-11-19 04:25:00+00:00, dtype: float64, RSI=46.58274713069234, ROC_1min=-0.0001100301742553711, ROC_2min=1.990795135498047e-05, ROC_4min=-2.002716064453125e-05, ROC_7min=-4.00543212890625e-05
+2024-11-18 23:25:11,617 - [2024-11-18 23:25:11.617730] Signal for EURAUD=X: HOLD
+2024-11-18 23:26:11,911 - Close=Ticker
+EURAUD=X    1.62533
+Name: 2024-11-19 04:26:00+00:00, dtype: float64, RSI=41.61421695668272, ROC_1min=-0.00010001659393310547, ROC_2min=-0.0001900196075439453, ROC_4min=-6.008148193359375e-05, ROC_7min=2.9921531677246094e-05
+2024-11-18 23:26:11,912 - [2024-11-18 23:26:11.912438] Signal for EURAUD=X: HOLD
+2024-11-18 23:26:21,361 - Close=Ticker
+EURAUD=X    1.62541
+Name: 2024-11-19 04:26:00+00:00, dtype: float64, RSI=43.789932990493995, ROC_1min=-2.002716064453125e-05, ROC_2min=-0.0001100301742553711, ROC_4min=0.00010991096496582031, ROC_7min=-3.0040740966796875e-05
+2024-11-18 23:26:21,362 - [2024-11-18 23:26:21.362138] Signal for EURAUD=X: HOLD
+2024-11-18 23:27:21,641 - Close=Ticker
+EURAUD=X    1.62528
+Name: 2024-11-19 04:27:00+00:00, dtype: float64, RSI=42.94994268246084, ROC_1min=-7.998943328857422e-05, ROC_2min=-0.0001499652862548828, ROC_4min=-0.0001499652862548828, ROC_7min=-0.0002999305725097656
+2024-11-18 23:27:21,641 - [2024-11-18 23:27:21.641612] Signal for EURAUD=X: SELL
+2024-11-18 23:28:21,890 - Close=Ticker
+EURAUD=X    1.62517
+Name: 2024-11-19 04:28:00+00:00, dtype: float64, RSI=38.269060936120106, ROC_1min=-0.00012004375457763672, ROC_2min=-0.0001900196075439453, ROC_4min=-0.0002200603485107422, ROC_7min=-0.00031006336212158203
+2024-11-18 23:28:21,891 - [2024-11-18 23:28:21.891212] Signal for EURAUD=X: SELL
+2024-11-18 23:29:22,176 - Close=Ticker
+EURAUD=X    1.6252
+Name: 2024-11-19 04:29:00+00:00, dtype: float64, RSI=35.71262677092204, ROC_1min=2.002716064453125e-05, ROC_2min=-9.000301361083984e-05, ROC_4min=-0.0003199577331542969, ROC_7min=-0.00011992454528808594
+2024-11-18 23:29:22,177 - [2024-11-18 23:29:22.177367] Signal for EURAUD=X: HOLD
+2024-11-18 23:29:29,179 - Close=Ticker
+EURAUD=X    1.62517
+Name: 2024-11-19 04:29:00+00:00, dtype: float64, RSI=34.6372633055404, ROC_1min=-1.0013580322265625e-05, ROC_2min=-0.00012004375457763672, ROC_5min=-0.00034999847412109375, ROC_10min=-0.0001499652862548828
+2024-11-18 23:29:29,182 - [2024-11-18 23:29:29.182197] Signal for EURAUD=X: SELL
+2024-11-18 23:30:29,567 - Close=Ticker
+EURAUD=X    1.62521
+Name: 2024-11-19 04:30:00+00:00, dtype: float64, RSI=41.48193941534929, ROC_1min=0.0, ROC_2min=3.0040740966796875e-05, ROC_5min=-0.0002199411392211914, ROC_10min=-0.00023996829986572266
+2024-11-18 23:30:29,568 - [2024-11-18 23:30:29.568457] Signal for EURAUD=X: HOLD
+2024-11-18 23:31:29,820 - Close=Ticker
+EURAUD=X    1.62537
+Name: 2024-11-19 04:31:00+00:00, dtype: float64, RSI=42.85830156541488, ROC_1min=-4.9948692321777344e-05, ROC_2min=0.00015997886657714844, ROC_5min=1.0013580322265625e-05, ROC_10min=6.99758529663086e-05
+2024-11-18 23:31:29,822 - [2024-11-18 23:31:29.822012] Signal for EURAUD=X: HOLD
+2024-11-18 23:32:30,118 - Close=Ticker
+EURAUD=X    1.62539
+Name: 2024-11-19 04:32:00+00:00, dtype: float64, RSI=46.938610007298685, ROC_1min=6.008148193359375e-05, ROC_2min=-2.9921531677246094e-05, ROC_5min=0.00010001659393310547, ROC_10min=-3.993511199951172e-05
+2024-11-18 23:32:30,119 - [2024-11-18 23:32:30.119331] Signal for EURAUD=X: HOLD
+2024-11-18 23:33:30,348 - Close=Ticker
+EURAUD=X    1.6254
+Name: 2024-11-19 04:33:00+00:00, dtype: float64, RSI=52.81719707784029, ROC_1min=0.00011992454528808594, ROC_2min=6.99758529663086e-05, ROC_5min=0.0002199411392211914, ROC_10min=9.894371032714844e-06
+2024-11-18 23:33:30,349 - [2024-11-18 23:33:30.349031] Signal for EURAUD=X: BUY
+2024-11-18 23:34:30,617 - Close=Ticker
+EURAUD=X    1.62551
+Name: 2024-11-19 04:34:00+00:00, dtype: float64, RSI=52.142066263520995, ROC_1min=5.996227264404297e-05, ROC_2min=0.00022995471954345703, ROC_5min=0.0002999305725097656, ROC_10min=-1.0013580322265625e-05
+2024-11-18 23:34:30,617 - [2024-11-18 23:34:30.617895] Signal for EURAUD=X: HOLD
+2024-11-18 23:35:30,933 - Close=Ticker
+EURAUD=X    1.62542
+Name: 2024-11-19 04:35:00+00:00, dtype: float64, RSI=54.28376767160619, ROC_1min=-0.00012004375457763672, ROC_2min=-3.0040740966796875e-05, ROC_5min=0.0, ROC_10min=-1.0013580322265625e-05
+2024-11-18 23:35:30,933 - [2024-11-18 23:35:30.933780] Signal for EURAUD=X: HOLD
+2024-11-18 23:36:31,223 - Close=Ticker
+EURAUD=X    1.62556
+Name: 2024-11-19 04:36:00+00:00, dtype: float64, RSI=55.374913784609326, ROC_1min=4.00543212890625e-05, ROC_2min=2.002716064453125e-05, ROC_5min=0.0002300739288330078, ROC_10min=0.00020003318786621094
+2024-11-18 23:36:31,225 - [2024-11-18 23:36:31.225376] Signal for EURAUD=X: BUY
+2024-11-18 23:37:31,480 - Close=Ticker
+EURAUD=X    1.62547
+Name: 2024-11-19 04:37:00+00:00, dtype: float64, RSI=52.898488120950326, ROC_1min=-0.0001499652862548828, ROC_2min=-4.9948692321777344e-05, ROC_5min=0.0001900196075439453, ROC_10min=0.0001800060272216797
+2024-11-18 23:37:31,481 - [2024-11-18 23:37:31.481947] Signal for EURAUD=X: HOLD
+2024-11-18 23:38:31,764 - Close=Ticker
+EURAUD=X    1.62544
+Name: 2024-11-19 04:38:00+00:00, dtype: float64, RSI=46.875291049641426, ROC_1min=-9.000301361083984e-05, ROC_2min=-0.0001800060272216797, ROC_5min=-1.0013580322265625e-05, ROC_10min=0.0002599954605102539
+2024-11-18 23:38:31,764 - [2024-11-18 23:38:31.764840] Signal for EURAUD=X: HOLD
+2024-11-18 23:39:31,999 - Close=Ticker
+EURAUD=X    1.62552
+Name: 2024-11-19 04:39:00+00:00, dtype: float64, RSI=53.846153846153854, ROC_1min=3.0040740966796875e-05, ROC_2min=-1.0013580322265625e-05, ROC_5min=-2.002716064453125e-05, ROC_10min=0.00030994415283203125
+2024-11-18 23:39:32,001 - [2024-11-18 23:39:32.001484] Signal for EURAUD=X: HOLD
+2024-11-18 23:40:32,265 - Close=Ticker
+EURAUD=X    1.62549
+Name: 2024-11-19 04:40:00+00:00, dtype: float64, RSI=55.75015826123655, ROC_1min=2.9921531677246094e-05, ROC_2min=0.0, ROC_5min=-3.0040740966796875e-05, ROC_10min=6.99758529663086e-05
+2024-11-18 23:40:32,267 - [2024-11-18 23:40:32.267881] Signal for EURAUD=X: HOLD
+2024-11-18 23:41:32,496 - Close=Ticker
+EURAUD=X    1.62556
+Name: 2024-11-19 04:41:00+00:00, dtype: float64, RSI=60.97490066866944, ROC_1min=0.0001500844955444336, ROC_2min=0.00010001659393310547, ROC_5min=-5.996227264404297e-05, ROC_10min=0.0002300739288330078
+2024-11-18 23:41:32,497 - [2024-11-18 23:41:32.497708] Signal for EURAUD=X: HOLD
+2024-11-18 23:42:32,754 - Close=Ticker
+EURAUD=X    1.62578
+Name: 2024-11-19 04:42:00+00:00, dtype: float64, RSI=72.38679832755093, ROC_1min=0.00012993812561035156, ROC_2min=0.000370025634765625, ROC_5min=0.0002499818801879883, ROC_10min=0.0004999637603759766
+2024-11-18 23:42:32,755 - [2024-11-18 23:42:32.755057] Signal for EURAUD=X: HOLD
+2024-11-18 23:43:32,989 - Close=Ticker
+EURAUD=X    1.62587
+Name: 2024-11-19 04:43:00+00:00, dtype: float64, RSI=71.99618563254927, ROC_1min=-5.0067901611328125e-05, ROC_2min=0.0002199411392211914, ROC_5min=0.0003800392150878906, ROC_10min=0.00041997432708740234
+2024-11-18 23:43:32,990 - [2024-11-18 23:43:32.990280] Signal for EURAUD=X: HOLD
+2024-11-18 23:43:53,398 - Close=Ticker
+EURAUD=X    1.62594
+Name: 2024-11-19 04:43:00+00:00, dtype: float64, RSI=74.8276700997486, ROC_1min=1.990795135498047e-05, ROC_2min=0.0002899169921875, ROC_5min=0.0004500150680541992, ROC_10min=0.0004899501800537109
+2024-11-18 23:43:53,399 - [2024-11-18 23:43:53.399119] Signal for EURAUD=X: BUY
+2024-11-18 23:44:53,654 - Close=Ticker
+EURAUD=X    1.62597
+Name: 2024-11-19 04:44:00+00:00, dtype: float64, RSI=70.99181073703366, ROC_1min=5.996227264404297e-05, ROC_2min=4.9948692321777344e-05, ROC_5min=0.0005099773406982422, ROC_10min=0.00042998790740966797
+2024-11-18 23:44:53,654 - [2024-11-18 23:44:53.654903] Signal for EURAUD=X: BUY
+2024-11-18 23:45:53,905 - Close=Ticker
+EURAUD=X    1.6261
+Name: 2024-11-19 04:45:00+00:00, dtype: float64, RSI=78.51655629139073, ROC_1min=9.894371032714844e-06, ROC_2min=0.00018990039825439453, ROC_5min=0.0006899833679199219, ROC_10min=0.0005799531936645508
+2024-11-18 23:45:53,907 - [2024-11-18 23:45:53.906989] Signal for EURAUD=X: BUY
+2024-11-18 23:46:54,199 - Close=Ticker
+EURAUD=X    1.6261
+Name: 2024-11-19 04:46:00+00:00, dtype: float64, RSI=81.53310104529616, ROC_1min=0.0, ROC_2min=9.894371032714844e-06, ROC_5min=0.00044989585876464844, ROC_10min=0.0004799365997314453
+2024-11-18 23:46:54,200 - [2024-11-18 23:46:54.200217] Signal for EURAUD=X: HOLD
+2024-11-18 23:47:54,455 - Close=Ticker
+EURAUD=X    1.62607
+Name: 2024-11-19 04:47:00+00:00, dtype: float64, RSI=75.83192609516242, ROC_1min=-4.9948692321777344e-05, ROC_2min=-2.9921531677246094e-05, ROC_5min=0.0001499652862548828, ROC_10min=0.0005400180816650391
+2024-11-18 23:47:54,455 - [2024-11-18 23:47:54.455810] Signal for EURAUD=X: HOLD
+2024-11-18 23:48:54,717 - Close=Ticker
+EURAUD=X    1.62595
+Name: 2024-11-19 04:48:00+00:00, dtype: float64, RSI=65.64461832408334, ROC_1min=-0.00021004676818847656, ROC_2min=-0.00016999244689941406, ROC_5min=3.993511199951172e-05, ROC_10min=0.00046002864837646484
+2024-11-18 23:48:54,718 - [2024-11-18 23:48:54.718195] Signal for EURAUD=X: HOLD
+2024-11-18 23:49:54,978 - Close=Ticker
+EURAUD=X    1.62607
+Name: 2024-11-19 04:49:00+00:00, dtype: float64, RSI=69.78219859372321, ROC_1min=0.0001100301742553711, ROC_2min=-9.000301361083984e-05, ROC_5min=-2.002716064453125e-05, ROC_10min=0.0006099939346313477
+2024-11-18 23:49:54,979 - [2024-11-18 23:49:54.979360] Signal for EURAUD=X: HOLD
+2024-11-18 23:50:55,351 - Close=Ticker
+EURAUD=X    1.62609
+Name: 2024-11-19 04:50:00+00:00, dtype: float64, RSI=66.66666666666666, ROC_1min=-4.9948692321777344e-05, ROC_2min=0.00013005733489990234, ROC_5min=-9.894371032714844e-06, ROC_10min=0.000680088996887207
+2024-11-18 23:50:55,352 - [2024-11-18 23:50:55.352475] Signal for EURAUD=X: HOLD
+2024-11-18 23:51:55,613 - Close=Ticker
+EURAUD=X    1.62628
+Name: 2024-11-19 04:51:00+00:00, dtype: float64, RSI=73.28792477974383, ROC_1min=0.00023996829986572266, ROC_2min=0.0001399517059326172, ROC_5min=0.00015997886657714844, ROC_10min=0.0006299018859863281
+2024-11-18 23:51:55,614 - [2024-11-18 23:51:55.614625] Signal for EURAUD=X: BUY
+2024-11-18 23:52:55,989 - Close=Ticker
+EURAUD=X    1.62628
+Name: 2024-11-19 04:52:00+00:00, dtype: float64, RSI=70.8961341994072, ROC_1min=-0.00016009807586669922, ROC_2min=0.00023996829986572266, ROC_5min=0.00011992454528808594, ROC_10min=0.0003598928451538086
+2024-11-18 23:52:55,989 - [2024-11-18 23:52:55.989874] Signal for EURAUD=X: HOLD
+2024-11-18 23:53:56,260 - Close=Ticker
+EURAUD=X    1.62638
+Name: 2024-11-19 04:53:00+00:00, dtype: float64, RSI=70.53158090778481, ROC_1min=0.00023996829986572266, ROC_2min=-6.008148193359375e-05, ROC_5min=0.00041997432708740234, ROC_10min=0.0004699230194091797
+2024-11-18 23:53:56,261 - [2024-11-18 23:53:56.261512] Signal for EURAUD=X: HOLD
+2024-11-18 23:54:56,537 - Close=Ticker
+EURAUD=X    1.62677
+Name: 2024-11-19 04:54:00+00:00, dtype: float64, RSI=76.35481635481636, ROC_1min=0.0003000497817993164, ROC_2min=0.0006300210952758789, ROC_5min=0.0006300210952758789, ROC_10min=0.0006799697875976562
+2024-11-18 23:54:56,538 - [2024-11-18 23:54:56.538417] Signal for EURAUD=X: BUY
+2024-11-18 23:55:56,789 - Close=Ticker
+EURAUD=X    1.62656
+Name: 2024-11-19 04:55:00+00:00, dtype: float64, RSI=69.52473525349158, ROC_1min=-0.00010001659393310547, ROC_2min=9.000301361083984e-05, ROC_5min=0.0005199909210205078, ROC_10min=0.00046002864837646484
+2024-11-18 23:55:56,790 - [2024-11-18 23:55:56.790005] Signal for EURAUD=X: HOLD
+2024-11-18 23:56:57,091 - Close=Ticker
+EURAUD=X    1.62651
+Name: 2024-11-19 04:56:00+00:00, dtype: float64, RSI=63.10993377483444, ROC_1min=6.99758529663086e-05, ROC_2min=-0.0001499652862548828, ROC_5min=6.99758529663086e-05, ROC_10min=0.00039005279541015625
+2024-11-18 23:56:57,092 - [2024-11-18 23:56:57.092808] Signal for EURAUD=X: HOLD
+2024-11-18 23:57:57,341 - Close=Ticker
+EURAUD=X    1.62657
+Name: 2024-11-19 04:57:00+00:00, dtype: float64, RSI=64.34642894163989, ROC_1min=3.0040740966796875e-05, ROC_2min=0.00012993812561035156, ROC_5min=0.00042998790740966797, ROC_10min=0.0004099607467651367
+2024-11-18 23:57:57,342 - [2024-11-18 23:57:57.342291] Signal for EURAUD=X: BUY
+2024-11-18 23:58:57,592 - Close=Ticker
+EURAUD=X    1.62665
+Name: 2024-11-19 04:58:00+00:00, dtype: float64, RSI=62.7255486318071, ROC_1min=2.9921531677246094e-05, ROC_2min=0.0001100301742553711, ROC_5min=0.0001800060272216797, ROC_10min=0.0006899833679199219
+2024-11-18 23:58:57,594 - [2024-11-18 23:58:57.594141] Signal for EURAUD=X: BUY
+2024-11-18 23:59:57,840 - Close=Ticker
+EURAUD=X    1.62673
+Name: 2024-11-19 04:59:00+00:00, dtype: float64, RSI=63.17889382075707, ROC_1min=0.00016999244689941406, ROC_2min=0.00010991096496582031, ROC_5min=6.99758529663086e-05, ROC_10min=0.0005899667739868164
+2024-11-18 23:59:57,840 - [2024-11-18 23:59:57.840783] Signal for EURAUD=X: BUY
+2024-11-19 00:00:58,092 - Close=Ticker
+EURAUD=X    1.62708
+Name: 2024-11-19 05:00:00+00:00, dtype: float64, RSI=67.64538323327052, ROC_1min=0.0003699064254760742, ROC_2min=0.0005199909210205078, ROC_5min=0.0006399154663085938, ROC_10min=0.0010399818420410156
+2024-11-19 00:00:58,094 - [2024-11-19 00:00:58.094519] Signal for EURAUD=X: BUY
+2024-11-19 00:01:58,344 - Close=Ticker
+EURAUD=X    1.62712
+Name: 2024-11-19 05:01:00+00:00, dtype: float64, RSI=67.64538323327052, ROC_1min=4.00543212890625e-05, ROC_2min=0.0004099607467651367, ROC_5min=0.0005800724029541016, ROC_10min=0.0006799697875976562
+2024-11-19 00:01:58,345 - [2024-11-19 00:01:58.345379] Signal for EURAUD=X: BUY
+2024-11-19 00:03:01,653 - Close=Ticker
+EURAUD=X    1.62731
+Name: 2024-11-19 05:02:00+00:00, dtype: float64, RSI=74.90653177919508, ROC_1min=0.00016999244689941406, ROC_2min=0.0002300739288330078, ROC_5min=0.0006899833679199219, ROC_10min=0.001170039176940918
+2024-11-19 00:03:01,654 - [2024-11-19 00:03:01.654042] Signal for EURAUD=X: BUY
+2024-11-19 00:04:01,868 - Close=Ticker
+EURAUD=X    1.62712
+Name: 2024-11-19 05:03:00+00:00, dtype: float64, RSI=68.01349752399317, ROC_1min=-0.0001900196075439453, ROC_2min=-2.002716064453125e-05, ROC_5min=0.0005600452423095703, ROC_10min=0.0006500482559204102
+2024-11-19 00:04:01,869 - [2024-11-19 00:04:01.869491] Signal for EURAUD=X: HOLD
+2024-11-19 00:05:02,161 - Close=Ticker
+EURAUD=X    1.62711
+Name: 2024-11-19 05:05:00+00:00, dtype: float64, RSI=64.37634298577714, ROC_1min=-5.996227264404297e-05, ROC_2min=-1.0013580322265625e-05, ROC_5min=3.0040740966796875e-05, ROC_10min=0.0006699562072753906
+2024-11-19 00:05:02,171 - [2024-11-19 00:05:02.171133] Signal for EURAUD=X: HOLD
+2024-11-19 00:06:02,399 - Close=Ticker
+EURAUD=X    1.62691
+Name: 2024-11-19 05:06:00+00:00, dtype: float64, RSI=65.84253127299485, ROC_1min=0.00010001659393310547, ROC_2min=-0.0002599954605102539, ROC_5min=-0.0002300739288330078, ROC_10min=0.000370025634765625
+2024-11-19 00:06:02,402 - [2024-11-19 00:06:02.402543] Signal for EURAUD=X: HOLD
+2024-11-19 00:07:02,851 - Close=Ticker
+EURAUD=X    1.62666
+Name: 2024-11-19 05:07:00+00:00, dtype: float64, RSI=54.418939897981815, ROC_1min=-4.00543212890625e-05, ROC_2min=-0.0001499652862548828, ROC_5min=-0.0006500482559204102, ROC_10min=3.993511199951172e-05
+2024-11-19 00:07:02,853 - [2024-11-19 00:07:02.853784] Signal for EURAUD=X: HOLD
+2024-11-19 00:08:03,320 - Close=Ticker
+EURAUD=X    1.62682
+Name: 2024-11-19 05:08:00+00:00, dtype: float64, RSI=53.63606806112496, ROC_1min=-7.998943328857422e-05, ROC_2min=0.00011992454528808594, ROC_5min=-0.0003000497817993164, ROC_10min=0.0002599954605102539
+2024-11-19 00:08:03,321 - [2024-11-19 00:08:03.321392] Signal for EURAUD=X: HOLD
+2024-11-19 00:09:03,560 - Close=Ticker
+EURAUD=X    1.6271
+Name: 2024-11-19 05:09:00+00:00, dtype: float64, RSI=65.71298819255222, ROC_1min=3.993511199951172e-05, ROC_2min=0.00020003318786621094, ROC_5min=-6.99758529663086e-05, ROC_10min=0.00038993358612060547
+2024-11-19 00:09:03,561 - [2024-11-19 00:09:03.561703] Signal for EURAUD=X: HOLD
+2024-11-19 00:10:03,831 - Close=Ticker
+EURAUD=X    1.62713
+Name: 2024-11-19 05:10:00+00:00, dtype: float64, RSI=64.5331767469172, ROC_1min=4.00543212890625e-05, ROC_2min=6.99758529663086e-05, ROC_5min=0.00032007694244384766, ROC_10min=5.0067901611328125e-05
+2024-11-19 00:10:03,832 - [2024-11-19 00:10:03.832887] Signal for EURAUD=X: BUY
+2024-11-19 00:11:04,076 - Close=Ticker
+EURAUD=X    1.62726
+Name: 2024-11-19 05:11:00+00:00, dtype: float64, RSI=64.41305982171625, ROC_1min=-6.99758529663086e-05, ROC_2min=0.00016999244689941406, ROC_5min=0.0005599260330200195, ROC_10min=0.00011992454528808594
+2024-11-19 00:11:04,077 - [2024-11-19 00:11:04.077674] Signal for EURAUD=X: HOLD
+2024-11-19 00:12:04,382 - Close=Ticker
+EURAUD=X    1.62731
+Name: 2024-11-19 05:12:00+00:00, dtype: float64, RSI=66.09701187065085, ROC_1min=0.0001100301742553711, ROC_2min=-1.990795135498047e-05, ROC_5min=0.0004100799560546875, ROC_10min=0.0
+2024-11-19 00:12:04,383 - [2024-11-19 00:12:04.383286] Signal for EURAUD=X: HOLD
+2024-11-19 00:13:04,653 - Close=Ticker
+EURAUD=X    1.62718
+Name: 2024-11-19 05:13:00+00:00, dtype: float64, RSI=60.351890756302524, ROC_1min=-0.0001100301742553711, ROC_2min=-2.002716064453125e-05, ROC_5min=0.00011992454528808594, ROC_10min=5.996227264404297e-05
+2024-11-19 00:13:04,655 - [2024-11-19 00:13:04.655284] Signal for EURAUD=X: HOLD
+2024-11-19 00:14:04,894 - Close=Ticker
+EURAUD=X    1.62722
+Name: 2024-11-19 05:14:00+00:00, dtype: float64, RSI=53.502235469448586, ROC_1min=6.99758529663086e-05, ROC_2min=-6.99758529663086e-05, ROC_5min=0.00013005733489990234, ROC_10min=5.0067901611328125e-05
+2024-11-19 00:14:04,895 - [2024-11-19 00:14:04.895832] Signal for EURAUD=X: HOLD
+2024-11-19 00:15:05,164 - Close=Ticker
+EURAUD=X    1.62693
+Name: 2024-11-19 05:15:00+00:00, dtype: float64, RSI=45.06829377519033, ROC_1min=-0.00023996829986572266, ROC_2min=-0.0002200603485107422, ROC_5min=-0.0003999471664428711, ROC_10min=0.00012004375457763672
+2024-11-19 00:15:05,165 - [2024-11-19 00:15:05.165193] Signal for EURAUD=X: HOLD
+2024-11-19 00:16:05,431 - Close=Ticker
+EURAUD=X    1.62679
+Name: 2024-11-19 05:16:00+00:00, dtype: float64, RSI=37.61639791051555, ROC_1min=-9.000301361083984e-05, ROC_2min=-0.00037992000579833984, ROC_5min=-0.0004099607467651367, ROC_10min=9.000301361083984e-05
+2024-11-19 00:16:05,432 - [2024-11-19 00:16:05.432412] Signal for EURAUD=X: HOLD
+2024-11-19 00:17:16,750 - Close=Ticker
+AUDCHF=X    0.57476
+Name: 2024-11-19 05:17:00+00:00, dtype: float64, RSI=42.42752641560553, ROC_1min=-5.996227264404297e-05, ROC_2min=-0.0001399517059326172, ROC_5min=1.0013580322265625e-05, ROC_10min=-0.00015997886657714844
+2024-11-19 00:17:16,750 - [2024-11-19 00:17:16.750904] Signal for AUDCHF=X: HOLD
+2024-11-19 00:18:17,070 - Close=Ticker
+AUDCHF=X    0.57478
+Name: 2024-11-19 05:18:00+00:00, dtype: float64, RSI=44.59568298969072, ROC_1min=5.0008296966552734e-05, ROC_2min=-3.999471664428711e-05, ROC_5min=2.9981136322021484e-05, ROC_10min=-1.0013580322265625e-05
+2024-11-19 00:18:17,072 - [2024-11-19 00:18:17.072239] Signal for AUDCHF=X: HOLD
+2024-11-19 00:19:17,306 - Close=Ticker
+AUDCHF=X    0.57473
+Name: 2024-11-19 05:19:00+00:00, dtype: float64, RSI=34.77885279889426, ROC_1min=-3.999471664428711e-05, ROC_2min=0.0, ROC_5min=-5.0008296966552734e-05, ROC_10min=-5.0008296966552734e-05
+2024-11-19 00:19:17,308 - [2024-11-19 00:19:17.307968] Signal for AUDCHF=X: HOLD
+2024-11-19 00:20:17,533 - Close=Ticker
+AUDCHF=X    0.57475
+Name: 2024-11-19 05:20:00+00:00, dtype: float64, RSI=35.616885767943174, ROC_1min=3.999471664428711e-05, ROC_2min=-1.996755599975586e-05, ROC_5min=-0.0001499652862548828, ROC_10min=2.002716064453125e-05
+2024-11-19 00:20:17,534 - [2024-11-19 00:20:17.534196] Signal for AUDCHF=X: HOLD
+2024-11-19 00:29:51,615 - Close=Ticker
+CADJPY=X    110.102997
+Name: 2024-11-19 05:29:00+00:00, dtype: float64, RSI=58.275234919672634, ROC_1min=-0.01900482177734375, ROC_2min=-0.0330047607421875, ROC_5min=-0.00600433349609375, ROC_10min=0.05199432373046875
+2024-11-19 00:29:51,616 - [2024-11-19 00:29:51.616273] Signal for CADJPY=X: HOLD
+2024-11-19 00:30:51,837 - Close=Ticker
+CADJPY=X    110.083
+Name: 2024-11-19 05:30:00+00:00, dtype: float64, RSI=56.962819893771126, ROC_1min=0.0019989013671875, ROC_2min=-0.03900146484375, ROC_5min=-0.03600311279296875, ROC_10min=0.01000213623046875
+2024-11-19 00:30:51,838 - [2024-11-19 00:30:51.838298] Signal for CADJPY=X: HOLD
+2024-11-19 00:31:52,132 - Close=Ticker
+CADJPY=X    110.095001
+Name: 2024-11-19 05:31:00+00:00, dtype: float64, RSI=62.19472484532726, ROC_1min=0.0070037841796875, ROC_2min=0.01399993896484375, ROC_5min=-0.03800201416015625, ROC_10min=0.01799774169921875
+2024-11-19 00:31:52,133 - [2024-11-19 00:31:52.133044] Signal for CADJPY=X: HOLD
