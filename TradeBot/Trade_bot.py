@@ -1,19 +1,21 @@
 
 import yfinance as yf
+import subprocess
 import time
 from datetime import datetime
 import pandas as pd
 import logging
 
 # Forex pair to analyze (e.g., EUR/USD)
-FOREX_PAIR = 'CADJPY=X'  # Format for Yahoo Finance forex data
+Pair_Input = input("Pair:")
+FOREX_PAIR = Pair_Input + '=X'  # Format for Yahoo Finance forex data
 
 # Time interval for data (e.g., 1m, 5m, 15m)
 TIME_INTERVAL = '1m'
 
 # RSI thresholds
-RSI_OVERBOUGHT = 80
-RSI_OVERSOLD = 20
+RSI_OVERBOUGHT = 65
+RSI_OVERSOLD = 32
 
 # Set up logging
 logging.basicConfig(filename="forex_bot.log", level=logging.INFO, 
@@ -35,7 +37,7 @@ def fetch_forex_data(pair: str, interval: str):
         logging.error(f"Error fetching data from Yahoo Finance: {e}")
         return None
 
-def calculate_rsi(data: pd.Series, period: int = 14):
+def calculate_rsi(data: pd.Series, period: int = 25):
     """
     Calculate the Relative Strength Index (RSI).
     """
@@ -46,7 +48,7 @@ def calculate_rsi(data: pd.Series, period: int = 14):
     rsi = 100 - (100 / (1 + rs))
     return rsi
 
-def calculate_rate_of_change(data: pd.Series, period: int = 1):
+def calculate_rate_of_change(data: pd.Series, period: int = 25):
     """
     Calculate the rate of change (ROC) over a given period (1 minute by default).
     """
@@ -60,10 +62,10 @@ def analyze_forex_data(data):
     df['RSI'] = calculate_rsi(df['Close'])
     
     # Calculate ROC for 1 minute, 2 minutes, 5 minutes, and 10 minutes
-    df['ROC_1min'] = calculate_rate_of_change(df['Close'], period=1)
-    df['ROC_2min'] = calculate_rate_of_change(df['Close'], period=2)
-    df['ROC_5min'] = calculate_rate_of_change(df['Close'], period=5)
-    df['ROC_10min'] = calculate_rate_of_change(df['Close'], period=10)
+    df['ROC_1min'] = calculate_rate_of_change(df['Close'], period=2)
+    df['ROC_2min'] = calculate_rate_of_change(df['Close'], period=5)
+    df['ROC_5min'] = calculate_rate_of_change(df['Close'], period=10)
+    df['ROC_10min'] = calculate_rate_of_change(df['Close'], period=15)
 
     if len(df) < 15:  # Ensure there are enough rows for RSI and ROC calculation
         logging.warning("Not enough data to calculate RSI or rate of change. Waiting for more data...")
@@ -83,10 +85,10 @@ def analyze_forex_data(data):
           f"ROC_2min={latest_roc_2min}, ROC_5min={latest_roc_5min}, ROC_10min={latest_roc_10min}")
 
     # Signal logic
-    if latest_rsi < RSI_OVERSOLD and latest_roc_1min > 0 and latest_roc_2min > 0:
-        return "BUY"
-    elif latest_rsi > RSI_OVERBOUGHT and latest_roc_1min < 0 and latest_roc_2min < 0:
-        return "SELL"
+    if latest_rsi < RSI_OVERSOLD:
+        return "HOLD"
+    elif latest_rsi > RSI_OVERBOUGHT:
+        return "HOLD"
     elif RSI_OVERSOLD < latest_rsi < RSI_OVERBOUGHT:  # RSI between thresholds
         if latest_roc_1min > 0 and latest_roc_2min > 0 and latest_roc_5min > 0 and latest_roc_10min > 0:
             return "BUY"
@@ -110,7 +112,13 @@ def main():
             logging.info(f"[{datetime.now()}] Signal for {FOREX_PAIR}: {signal}")
             print(f"[{datetime.now()}] Signal for {FOREX_PAIR}: {signal}")
             
-            # Wait before the next fetch (can be reduced if API allows more frequent fetching)
+            # Play sound based on signal
+            if signal == "BUY":
+                subprocess.run(["afplay", "Money.mp3"]) # Play BUY sound
+            elif signal == "SELL":
+                subprocess.run(["afplay", "Money.mp3"])  # Play SELL sound
+            
+            # Wait before the next fetch
             time.sleep(60)  # Limit to 1 minute, change if API allows more frequent requests
         except Exception as e:
             logging.error(f"An error occurred: {e}")
