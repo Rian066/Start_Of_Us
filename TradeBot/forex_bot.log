@@ -5095,3 +5095,690 @@ Name: 2024-11-22 02:03:00+00:00, dtype: float64, RSI=44.20352453351762, ROC_2min
 AUDCAD=X    0.90999
 Name: 2024-11-22 02:03:00+00:00, dtype: float64, RSI=42.85775109635117, ROC_2min=-0.00011998414993286133, ROC_5min=-7.998943328857422e-05, 
 2024-11-21 21:03:42,165 - [2024-11-21 21:03:42.165722] Signal for AUDCAD=X: SELL
+2024-11-22 18:55:12,452 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 18:56:12,842 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 18:57:13,190 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 18:57:33,900 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 18:58:34,205 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 19:14:31,748 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 19:14:31,816 - 
+1 Failed download:
+2024-11-22 19:14:31,816 - ['AUDCAD=X']: ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'query1.finance.yahoo.com\', port=443): Max retries exceeded with url: /v1/test/getcrumb (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x114c66f90>: Failed to resolve \'query1.finance.yahoo.com\' ([Errno 8] nodename nor servname provided, or not known)"))'))
+2024-11-22 19:14:31,821 - Error: Data is empty.
+2024-11-22 19:14:31,822 - No data received. Retrying...
+2024-11-22 19:22:15,151 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 19:22:15,969 - Successfully fetched data for AUDCAD=X.
+2024-11-22 19:22:15,991 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:48:58,091 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:48:58,665 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:48:58,699 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:51:37,470 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:51:37,968 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:51:37,968 - Calculating RSI...
+2024-11-22 22:51:37,973 - RSI calculated.
+2024-11-22 22:51:37,973 - Calculating MACD...
+2024-11-22 22:51:37,976 - MACD calculated.
+2024-11-22 22:51:37,976 - Calculating Bollinger Bands...
+2024-11-22 22:51:37,980 - Bollinger Bands calculated.
+2024-11-22 22:51:37,980 - Calculating ROC...
+2024-11-22 22:51:37,984 - ROC calculated.
+2024-11-22 22:51:38,007 - Data for analysis:
+Price                     Adj Close    Close  ... ROC_5min ROC_10min
+Ticker                     AUDCAD=X AUDCAD=X  ...                   
+Datetime                                      ...                   
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0 -0.080341
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0 -0.058340
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0 -0.084739
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0 -0.103427
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0  0.023133
+
+[5 rows x 14 columns]
+2024-11-22 22:51:38,013 - Error in analyze_forex_data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:51:38,013 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:52:38,015 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:52:38,289 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:52:38,289 - Calculating RSI...
+2024-11-22 22:52:38,293 - RSI calculated.
+2024-11-22 22:52:38,294 - Calculating MACD...
+2024-11-22 22:52:38,296 - MACD calculated.
+2024-11-22 22:52:38,297 - Calculating Bollinger Bands...
+2024-11-22 22:52:38,300 - Bollinger Bands calculated.
+2024-11-22 22:52:38,300 - Calculating ROC...
+2024-11-22 22:52:38,304 - ROC calculated.
+2024-11-22 22:52:38,321 - Data for analysis:
+Price                     Adj Close    Close  ... ROC_5min ROC_10min
+Ticker                     AUDCAD=X AUDCAD=X  ...                   
+Datetime                                      ...                   
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0 -0.080341
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0 -0.058340
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0 -0.084739
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0 -0.103427
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0  0.023133
+
+[5 rows x 14 columns]
+2024-11-22 22:52:38,328 - Error in analyze_forex_data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:52:38,328 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:53:38,330 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:53:38,623 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:53:38,624 - Calculating RSI...
+2024-11-22 22:53:38,628 - RSI calculated.
+2024-11-22 22:53:38,628 - Calculating MACD...
+2024-11-22 22:53:38,631 - MACD calculated.
+2024-11-22 22:53:38,631 - Calculating Bollinger Bands...
+2024-11-22 22:53:38,641 - Bollinger Bands calculated.
+2024-11-22 22:53:38,641 - Calculating ROC...
+2024-11-22 22:53:38,646 - ROC calculated.
+2024-11-22 22:53:38,663 - Data for analysis:
+Price                     Adj Close    Close  ... ROC_5min ROC_10min
+Ticker                     AUDCAD=X AUDCAD=X  ...                   
+Datetime                                      ...                   
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0 -0.080341
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0 -0.058340
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0 -0.084739
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0 -0.103427
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0  0.023133
+
+[5 rows x 14 columns]
+2024-11-22 22:53:38,670 - Error in analyze_forex_data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:53:38,670 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:54:38,670 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:54:38,914 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:54:38,915 - Calculating RSI...
+2024-11-22 22:54:38,919 - RSI calculated.
+2024-11-22 22:54:38,919 - Calculating MACD...
+2024-11-22 22:54:38,921 - MACD calculated.
+2024-11-22 22:54:38,922 - Calculating Bollinger Bands...
+2024-11-22 22:54:38,925 - Bollinger Bands calculated.
+2024-11-22 22:54:38,925 - Calculating ROC...
+2024-11-22 22:54:38,930 - ROC calculated.
+2024-11-22 22:54:38,947 - Data for analysis:
+Price                     Adj Close    Close  ... ROC_5min ROC_10min
+Ticker                     AUDCAD=X AUDCAD=X  ...                   
+Datetime                                      ...                   
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0 -0.080341
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0 -0.058340
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0 -0.084739
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0 -0.103427
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0  0.023133
+
+[5 rows x 14 columns]
+2024-11-22 22:54:38,954 - Error in analyze_forex_data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:54:38,954 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:55:20,953 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:55:21,616 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:55:21,661 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:56:23,554 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:56:24,091 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:56:24,143 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:57:24,145 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:57:24,371 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:57:24,417 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:58:24,418 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:58:24,672 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:58:24,753 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 22:59:24,756 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 22:59:24,996 - Successfully fetched data for AUDCAD=X.
+2024-11-22 22:59:25,069 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:00:24,824 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:00:25,393 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:00:25,444 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:03:40,799 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:03:41,252 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:03:41,308 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:06:53,417 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:06:53,885 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:06:53,925 - An error occurred: unhashable type: 'Series'
+2024-11-22 23:08:30,482 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:08:30,989 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:08:31,038 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:09:29,482 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:09:30,109 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:09:30,149 - -0.00019176013237798273, -0.00016838400197354467, 0.9090646631381077, 0.9074663095810848
+2024-11-22 23:09:30,151 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:11:34,098 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:11:34,606 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:11:34,651 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:12:34,651 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:12:34,945 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:12:34,989 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:13:03,522 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:13:04,009 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:13:04,052 - -0.00019176013237798273, 
+-0.00016838400197354467, 
+0.9090646631381077, 
+0.9074663095810848, 
+0.0, 
+0.0
+2024-11-22 23:13:04,053 - [2024-11-22 23:13:04.053147] Signal for AUDCAD=X: HOLD
+2024-11-22 23:15:34,583 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:15:35,092 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:15:35,135 - An error occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2024-11-22 23:18:51,545 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:18:52,319 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:18:52,382 - [2024-11-22 23:18:52.382224] Signal for AUDCAD=X: HOLD
+2024-11-22 23:19:25,725 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:19:26,222 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:19:26,261 - [2024-11-22 23:19:26.261037] Signal for AUDCAD=X: HOLD
+2024-11-22 23:19:56,262 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:19:56,675 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:19:56,714 - [2024-11-22 23:19:56.714637] Signal for AUDCAD=X: HOLD
+2024-11-22 23:24:46,768 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:24:47,263 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:24:47,301 - [2024-11-22 23:24:47.301196] Signal for AUDCAD=X: HOLD
+2024-11-22 23:25:17,301 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:25:17,534 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:25:17,573 - [2024-11-22 23:25:17.573636] Signal for AUDCAD=X: HOLD
+2024-11-22 23:25:57,616 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:25:58,044 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:25:58,082 - [2024-11-22 23:25:58.082129] Signal for AUDCAD=X: HOLD
+2024-11-22 23:28:54,874 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:28:55,852 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:28:55,889 - [2024-11-22 23:28:55.889175] Signal for AUDCAD=X: HOLD
+2024-11-22 23:35:34,452 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:35:34,906 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:35:34,953 - An error occurred: 'Close'
+2024-11-22 23:36:43,902 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:36:44,353 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:36:44,382 - An error occurred: 'Close'
+2024-11-22 23:38:20,244 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:38:20,674 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:38:20,757 - [2024-11-22 23:38:20.757922] Signal for AUDCAD=X: HOLD
+2024-11-22 23:42:12,268 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:42:12,752 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:42:12,834 - [2024-11-22 23:42:12.834923] Signal for AUDCAD=X: HOLD
+2024-11-22 23:42:42,837 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:42:43,036 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:42:43,116 - [2024-11-22 23:42:43.116257] Signal for AUDCAD=X: HOLD
+2024-11-22 23:43:13,118 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:43:13,383 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:43:13,461 - [2024-11-22 23:43:13.461254] Signal for AUDCAD=X: HOLD
+2024-11-22 23:43:25,767 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:43:26,236 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:43:26,319 - [2024-11-22 23:43:26.319924] Signal for AUDCAD=X: HOLD
+2024-11-22 23:43:56,323 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:43:56,557 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:43:56,638 - [2024-11-22 23:43:56.638288] Signal for AUDCAD=X: HOLD
+2024-11-22 23:44:26,640 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:44:26,840 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:44:26,923 - [2024-11-22 23:44:26.922969] Signal for AUDCAD=X: HOLD
+2024-11-22 23:44:56,924 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:44:57,144 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:44:57,224 - [2024-11-22 23:44:57.224942] Signal for AUDCAD=X: HOLD
+2024-11-22 23:45:11,459 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:45:11,886 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:45:11,972 - [2024-11-22 23:45:11.972017] Signal for AUDCAD=X: HOLD
+2024-11-22 23:45:41,974 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:45:42,205 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:45:42,296 - [2024-11-22 23:45:42.296520] Signal for AUDCAD=X: HOLD
+2024-11-22 23:45:49,973 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:45:50,400 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:45:50,437 - [2024-11-22 23:45:50.437922] Signal for AUDCAD=X: HOLD
+2024-11-22 23:46:20,700 - Fetching data for AAPL=X at 1m interval...
+2024-11-22 23:46:22,807 - 
+1 Failed download:
+2024-11-22 23:46:22,808 - ['AAPL=X']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")')
+2024-11-22 23:46:22,816 - Error: Data is empty.
+2024-11-22 23:46:22,816 - No data received. Retrying...
+2024-11-22 23:46:32,212 - Fetching data for EURUSD=X at 1m interval...
+2024-11-22 23:46:32,710 - Successfully fetched data for EURUSD=X.
+2024-11-22 23:46:32,761 - [2024-11-22 23:46:32.761235] Signal for EURUSD=X: HOLD
+2024-11-22 23:47:48,112 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:47:48,707 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:47:48,779 - data = 
+Price                     Adj Close    Close  ... ROC_5min ROC_10min
+Ticker                     AUDCAD=X AUDCAD=X  ...                   
+Datetime                                      ...                   
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0  0.000021
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0  0.000021
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0  0.000021
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0  0.000021
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0  0.000021
+...                             ...      ...  ...      ...       ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0  0.000021
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0  0.000021
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0  0.000021
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0  0.000021
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0  0.000021
+
+[7075 rows x 15 columns]
+2024-11-22 23:47:48,779 - [2024-11-22 23:47:48.779529] Signal for AUDCAD=X: HOLD
+2024-11-22 23:57:21,769 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:57:22,252 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:57:22,308 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-22 23:57:22,309 - [2024-11-22 23:57:22.309046] Signal for AUDCAD=X: HOLD
+2024-11-22 23:57:52,311 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:57:52,570 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:57:52,626 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-22 23:57:52,626 - [2024-11-22 23:57:52.626873] Signal for AUDCAD=X: HOLD
+2024-11-22 23:58:22,629 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:58:22,905 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:58:22,957 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-22 23:58:22,957 - [2024-11-22 23:58:22.957712] Signal for AUDCAD=X: HOLD
+2024-11-22 23:58:52,956 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:58:53,199 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:58:53,251 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-22 23:58:53,251 - [2024-11-22 23:58:53.251931] Signal for AUDCAD=X: HOLD
+2024-11-22 23:59:23,254 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:59:23,506 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:59:23,583 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-22 23:59:23,583 - [2024-11-22 23:59:23.583681] Signal for AUDCAD=X: HOLD
+2024-11-22 23:59:53,584 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-22 23:59:53,823 - Successfully fetched data for AUDCAD=X.
+2024-11-22 23:59:53,876 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-22 23:59:53,876 - [2024-11-22 23:59:53.876369] Signal for AUDCAD=X: HOLD
+2024-11-23 00:00:23,876 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:00:24,092 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:00:24,148 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:00:24,149 - [2024-11-23 00:00:24.149100] Signal for AUDCAD=X: HOLD
+2024-11-23 00:00:54,151 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:00:54,354 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:00:54,407 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:00:54,407 - [2024-11-23 00:00:54.407448] Signal for AUDCAD=X: HOLD
+2024-11-23 00:01:24,409 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:01:24,675 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:01:24,727 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:01:24,728 - [2024-11-23 00:01:24.728244] Signal for AUDCAD=X: HOLD
+2024-11-23 00:01:54,730 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:01:54,948 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:01:55,001 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:01:55,001 - [2024-11-23 00:01:55.001830] Signal for AUDCAD=X: HOLD
+2024-11-23 00:02:25,004 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:02:25,229 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:02:25,432 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:02:25,433 - [2024-11-23 00:02:25.433124] Signal for AUDCAD=X: HOLD
+2024-11-23 00:02:55,436 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:02:55,794 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:02:55,847 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:02:55,847 - [2024-11-23 00:02:55.847487] Signal for AUDCAD=X: HOLD
+2024-11-23 00:03:25,848 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:03:26,069 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:03:26,121 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:03:26,121 - [2024-11-23 00:03:26.121967] Signal for AUDCAD=X: HOLD
+2024-11-23 00:03:56,124 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:03:56,391 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:03:56,443 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:03:56,444 - [2024-11-23 00:03:56.444227] Signal for AUDCAD=X: HOLD
+2024-11-23 00:04:35,526 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:04:35,996 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:04:36,054 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:04:36,054 - [2024-11-23 00:04:36.054519] Signal for AUDCAD=X: HOLD
+2024-11-23 00:05:06,057 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:05:06,314 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:05:06,372 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:05:06,373 - [2024-11-23 00:05:06.373170] Signal for AUDCAD=X: HOLD
+2024-11-23 00:05:27,137 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:05:27,597 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:05:27,653 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:05:27,653 - [2024-11-23 00:05:27.653625] Signal for AUDCAD=X: HOLD
+2024-11-23 00:05:57,656 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:05:57,938 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:05:58,001 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:05:58,001 - [2024-11-23 00:05:58.001774] Signal for AUDCAD=X: HOLD
+2024-11-23 00:06:28,001 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:06:28,247 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:06:28,315 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:06:28,316 - [2024-11-23 00:06:28.316268] Signal for AUDCAD=X: HOLD
+2024-11-23 00:06:58,319 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:06:58,522 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:06:58,574 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:06:58,575 - [2024-11-23 00:06:58.575060] Signal for AUDCAD=X: HOLD
+2024-11-23 00:07:28,578 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:07:28,813 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:07:28,868 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:07:28,869 - [2024-11-23 00:07:28.869151] Signal for AUDCAD=X: HOLD
+2024-11-23 00:07:46,874 - Fetching data for AUDCAD=X at 1m interval...
+2024-11-23 00:07:47,313 - Successfully fetched data for AUDCAD=X.
+2024-11-23 00:07:47,372 - data = 
+Price                     Adj Close    Close  ... ROC_2min ROC_5min
+Ticker                     AUDCAD=X AUDCAD=X  ...                  
+Datetime                                      ...                  
+2024-11-18 00:00:00+00:00   0.91044  0.91044  ...      0.0      0.0
+2024-11-18 00:01:00+00:00   0.91039  0.91039  ...      0.0      0.0
+2024-11-18 00:02:00+00:00   0.91049  0.91049  ...      0.0      0.0
+2024-11-18 00:03:00+00:00   0.91047  0.91047  ...      0.0      0.0
+2024-11-18 00:04:00+00:00   0.91033  0.91033  ...      0.0      0.0
+...                             ...      ...  ...      ...      ...
+2024-11-22 22:17:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:20:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:23:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:26:00+00:00   0.90794  0.90794  ...      0.0      0.0
+2024-11-22 22:29:00+00:00   0.90794  0.90794  ...      0.0      0.0
+
+[7075 rows x 14 columns]
+2024-11-23 00:07:47,372 - [2024-11-23 00:07:47.372577] Signal for AUDCAD=X: HOLD
