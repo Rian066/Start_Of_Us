@@ -1,13 +1,21 @@
 import yfinance as yf
 import subprocess
 import time
+import threading
 from datetime import datetime
 import pandas as pd
 import logging
 
+# Pick the market
+forex = 0
+stocks = 1
+market = forex
 # Forex pair to analyze (e.g., EUR/USD)
-Pair_Input = input("Pair:")
-FOREX_PAIR = Pair_Input + "=X"  # Format for Yahoo Finance forex data
+if market == 0:
+    Pair_Input = input("Pair: ")
+    FOREX_PAIR = Pair_Input + "=X"  # Format for Yahoo Finance forex data
+elif market == 1:
+    FOREX_PAIR = input("Pair: ")
 
 # Time interval for data (e.g., 1m, 5m, 15m)
 TIME_INTERVAL = "1m"
@@ -15,6 +23,8 @@ TIME_INTERVAL = "1m"
 # RSI thresholds
 RSI_OVERBOUGHT = 65
 RSI_OVERSOLD = 35
+
+Above_Band = None
 
 # PREVIOUS_SIGNAL = ""
 
@@ -84,20 +94,34 @@ def calculate_bollinger_bands(data: pd.Series, window: int = 20):
     """
     sma = data.rolling(window=window).mean()
     stddev = data.rolling(window=window).std()
-    upper_band = sma + (2 * stddev)
-    lower_band = sma - (2 * stddev)
+    upper_band = sma + (stddev)
+    lower_band = sma - (stddev)
     return upper_band, lower_band
+
+
+def check_bollinger_bands(lower_band, upper_band, close):
+    global Above_Band
+    if close > upper_band:
+        Above_Band = True
+    elif close < lower_band:
+        Above_Band = False
+    else:
+        Above_Band = None
+    time.sleep(120)
 
 
 def analyze_forex_data(data):
     """
     Analyze forex data and give buy/sell signals based on indicators.
     """
+    global Above_Band
+
     df = data.copy()
     df["RSI"] = calculate_rsi(df["Close"])
     df["MACD"], df["MACD_Signal"] = calculate_macd(df["Close"])
     df["Upper_Band"], df["Lower_Band"] = calculate_bollinger_bands(df["Close"])
     df["Volatility"] = df["Close"].pct_change().std()
+    df["ROC_1min"] = calculate_rate_of_change(df["Close"], 1)
     df["ROC_2min"] = calculate_rate_of_change(df["Close"], 2)
     df["ROC_5min"] = calculate_rate_of_change(df["Close"], 5)
 
@@ -112,9 +136,17 @@ def analyze_forex_data(data):
     latest_upper_band = df["Upper_Band"].iloc[-1]
     latest_lower_band = df["Lower_Band"].iloc[-1]
     volatility = df["Volatility"].iloc[-1]
-    latest_close = df["Close"].iloc[-1]
+    latest_close = df["Close"].iloc[-1].values[0]
+    latest_ROC_1min = df["ROC_1min"].iloc[-1]
     latest_ROC_2min = df["ROC_2min"].iloc[-1]
     latest_ROC_5min = df["ROC_5min"].iloc[-1]
+
+    # Check if Above_Band
+    threading.Thread(
+        target=check_bollinger_bands,
+        args=(latest_lower_band, latest_upper_band, latest_close),
+        daemon=True,
+    ).start()
 
     print(
         f"""
@@ -124,7 +156,9 @@ def analyze_forex_data(data):
         \nMACD_Signal = {latest_signal_line},
         \nLower_Band = {latest_lower_band},
         \nUpper_Band = {latest_upper_band},
+        \nAbove_Band = {Above_Band},
         \nVolatility = {volatility},
+        \n1_min = {latest_ROC_1min}
         \n2_min = {latest_ROC_2min}
         \n5_min = {latest_ROC_5min}
         """
@@ -142,17 +176,20 @@ def analyze_forex_data(data):
     #     f"{latest_macd}, \n{latest_signal_line}, \n{latest_upper_band}, \n{latest_lower_band}, \n{latest_ROC_2min}, \n{latest_ROC_5min}, \n{adjusted_rsi_overbought}, \n{adjusted_rsi_oversold}, "
     # )
     # Signal logic
-    logging.info(f"data = \n{df}")
-    if latest_rsi < adjusted_rsi_oversold and latest_close < latest_lower_band:
+    if Above_Band == True and latest_ROC_1min > 0:
         return "BUY"
-    elif latest_rsi > adjusted_rsi_overbought and latest_close > latest_upper_band:
+    elif latest_rsi > adjusted_rsi_oversold and latest_ROC_1min < 0:
         return "SELL"
+    elif Above_Band == False and latest_ROC_1min < 0:
+        return "SELL"
+    elif latest_rsi < adjusted_rsi_overbought and latest_ROC_1min > 0:
+        return "BUY"
     elif (
-        latest_macd > latest_signal_line and latest_ROC_2min > 0 and latest_ROC_5min > 0
+        latest_macd > latest_signal_line and latest_ROC_1min > 0 and latest_ROC_2min > 0
     ):
         return "BUY"
     elif (
-        latest_macd < latest_signal_line and latest_ROC_2min < 0 and latest_ROC_5min < 0
+        latest_macd < latest_signal_line and latest_ROC_1min < 0 and latest_ROC_2min < 0
     ):
         return "SELL"
 
@@ -168,7 +205,7 @@ def main():
             data = fetch_forex_data(FOREX_PAIR, TIME_INTERVAL)
             if data is None:
                 logging.error("No data received. Retrying...")
-                time.sleep(30)
+                time.sleep(60)
                 continue
 
             # Analyze data
@@ -184,10 +221,10 @@ def main():
                 )  # Replace with sound player for your OS
 
             # PREVIOUS_SIGNAL = signal
-            time.sleep(30)
+            time.sleep(60)
         except Exception as e:
             logging.error(f"An error occurred: {e}")
-            time.sleep(30)
+            time.sleep(60)
 
 
 if __name__ == "__main__":
