@@ -26,7 +26,7 @@ RSI_OVERSOLD = 35
 
 Above_Band = None
 
-# PREVIOUS_SIGNAL = ""
+PREVIOUS_SIGNAL = ""
 
 # Set up logging
 logging.basicConfig(
@@ -107,7 +107,7 @@ def check_bollinger_bands(lower_band, upper_band, close):
         Above_Band = False
     else:
         Above_Band = None
-    time.sleep(120)
+    time.sleep(200)
 
 
 def analyze_forex_data(data):
@@ -120,7 +120,7 @@ def analyze_forex_data(data):
     df["RSI"] = calculate_rsi(df["Close"])
     df["MACD"], df["MACD_Signal"] = calculate_macd(df["Close"])
     df["Upper_Band"], df["Lower_Band"] = calculate_bollinger_bands(df["Close"])
-    df["Volatility"] = df["Close"].pct_change().std()
+    df["Volatility"] = df["Close"].pct_change().rolling(window=14).std()
     df["ROC_1min"] = calculate_rate_of_change(df["Close"], 1)
     df["ROC_2min"] = calculate_rate_of_change(df["Close"], 2)
     df["ROC_5min"] = calculate_rate_of_change(df["Close"], 5)
@@ -148,49 +148,64 @@ def analyze_forex_data(data):
         daemon=True,
     ).start()
 
-    print(
-        f"""
-        \nClose = {latest_close},
-        \nRSI = {latest_rsi}
-        \nMACD = {latest_macd},
-        \nMACD_Signal = {latest_signal_line},
-        \nLower_Band = {latest_lower_band},
-        \nUpper_Band = {latest_upper_band},
-        \nAbove_Band = {Above_Band},
-        \nVolatility = {volatility},
-        \n1_min = {latest_ROC_1min}
-        \n2_min = {latest_ROC_2min}
-        \n5_min = {latest_ROC_5min}
-        """
-    )
-    # Adjust RSI thresholds dynamically based on volatility
     if pd.isna(volatility):
         volatility = 0
 
+    # Adjust RSI thresholds dynamically based on volatility
     adjusted_rsi_overbought = (
-        RSI_OVERBOUGHT - 5 if volatility > 0.005 else RSI_OVERBOUGHT
+        RSI_OVERBOUGHT - 5 if volatility > 0.0005 else RSI_OVERBOUGHT
     )
-    adjusted_rsi_oversold = RSI_OVERSOLD + 5 if volatility > 0.005 else RSI_OVERSOLD
+    adjusted_rsi_oversold = RSI_OVERSOLD + 5 if volatility > 0.0005 else RSI_OVERSOLD
+
+    print(
+        f"""
+        \nClose = {latest_close},
+        RSI = {latest_rsi}
+        Overbought = {adjusted_rsi_overbought},
+        Oversold = {adjusted_rsi_oversold},
+        MACD = {latest_macd},
+        MACD_Signal = {latest_signal_line},
+        Lower_Band = {latest_lower_band},
+        Upper_Band = {latest_upper_band},
+        Above_Band = {Above_Band},
+        Volatility = {volatility},
+        1_min = {latest_ROC_1min}
+        2_min = {latest_ROC_2min}
+        5_min = {latest_ROC_5min}
+        """
+    )
 
     # logging.info(
     #     f"{latest_macd}, \n{latest_signal_line}, \n{latest_upper_band}, \n{latest_lower_band}, \n{latest_ROC_2min}, \n{latest_ROC_5min}, \n{adjusted_rsi_overbought}, \n{adjusted_rsi_oversold}, "
     # )
     # Signal logic
-    if Above_Band == True and latest_ROC_1min > 0:
-        return "BUY"
-    elif latest_rsi > adjusted_rsi_oversold and latest_ROC_1min < 0:
-        return "SELL"
-    elif Above_Band == False and latest_ROC_1min < 0:
-        return "SELL"
-    elif latest_rsi < adjusted_rsi_overbought and latest_ROC_1min > 0:
+    if latest_rsi < adjusted_rsi_oversold and latest_ROC_1min > 0:
+        print("line 179")
         return "BUY"
     elif (
         latest_macd > latest_signal_line and latest_ROC_1min > 0 and latest_ROC_2min > 0
     ):
+        print("line 183")
         return "BUY"
+    # elif latest_ROC_1min > 0:
+    #     print("line 187")
+    #     return "BUY"
+    elif latest_rsi > adjusted_rsi_overbought and latest_ROC_1min < 0:
+        print("line 190")
+        return "SELL"
+    elif Above_Band == True and latest_ROC_2min < 0:
+        print("line 193")
+        return "SELL"
+    elif Above_Band == False and latest_ROC_2min > 0:
+        print("line 196")
+        return "BUY"
+    # elif latest_ROC_1min < 0:
+    #     print("line 199")
+    #     return "SELL"
     elif (
         latest_macd < latest_signal_line and latest_ROC_1min < 0 and latest_ROC_2min < 0
     ):
+        print("line 203")
         return "SELL"
 
     return "HOLD"
@@ -205,26 +220,26 @@ def main():
             data = fetch_forex_data(FOREX_PAIR, TIME_INTERVAL)
             if data is None:
                 logging.error("No data received. Retrying...")
-                time.sleep(60)
+                time.sleep(120)
                 continue
 
             # Analyze data
             signal = analyze_forex_data(data)
-            # if signal != PREVIOUS_SIGNAL:
-            logging.info(f"[{datetime.now()}] Signal for {FOREX_PAIR}: {signal}")
-            print(f"[{datetime.now()}] Signal for {FOREX_PAIR}: {signal}\n-------")
+            if signal != PREVIOUS_SIGNAL:
+                logging.info(f"[{datetime.now()}] Signal for {FOREX_PAIR}: {signal}")
+                print(f"[{datetime.now()}] Signal for {FOREX_PAIR}: {signal}\n-------")
 
-            # Play sound based on signal
-            if signal == "BUY" or signal == "SELL":
-                subprocess.run(
-                    ["afplay", "Money.mp3"]
-                )  # Replace with sound player for your OS
+                # Play sound based on signal
+                if signal == "BUY" or signal == "SELL":
+                    subprocess.run(
+                        ["afplay", "Money.mp3"]
+                    )  # Replace with sound player for your OS
 
-            # PREVIOUS_SIGNAL = signal
-            time.sleep(60)
+            PREVIOUS_SIGNAL = signal
+            time.sleep(120)
         except Exception as e:
             logging.error(f"An error occurred: {e}")
-            time.sleep(60)
+            time.sleep(120)
 
 
 if __name__ == "__main__":
