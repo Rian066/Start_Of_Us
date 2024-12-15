@@ -1,0 +1,6 @@
+Name:  Rian M Alif
+Email: rian.alif58@myhunter.cuny.edu
+Date: December 14, 2024
+This program uses bash comand to output Hello World
+
+echo Hello World
