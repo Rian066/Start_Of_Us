@@ -1,0 +1,8 @@
+Name:  Rian M Alif
+Email: rian.alif58@myhunter.cuny.edu
+Date: December 17, 2024
+This program uses bash to do some stuff
+
+mkdir projectFiles
+cd projectFiles
+mkdir source data results
