@@ -9,7 +9,7 @@ import logging
 # Pick the market
 forex = 0
 stocks = 1
-market = stocks
+market = forex
 # Forex pair to analyze (e.g., EUR/USD)
 if market == 0:
     Pair_Input = input("Pair: ")
@@ -74,9 +74,9 @@ def calculate_rate_of_change(data: pd.Series, period):
 
 def calculate_macd(
     data: pd.Series,
-    short_window: int = 1,
-    long_window: int = 5,
-    signal_window: int = 5,
+    short_window: int = 5,
+    long_window: int = 26,
+    signal_window: int = 9,
 ):
     """
     Calculate MACD and MACD signal line.
