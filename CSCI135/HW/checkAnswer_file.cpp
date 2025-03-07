@@ -1,6 +1,14 @@
+/*
+Author: Rian M Alif
+Course: CSCI-135
+Instructor: Tong Yi
+Assignment: Project 1 C
+*/
+/*
+This program grades a test.
+*/
+
 #include <iostream>
-#include <string>
-#include <vector>
 #include <fstream>
 using namespace std;
 
@@ -10,18 +18,17 @@ int main()
     cout << "Enter a file name: ";
     cin >> filename;
 
-    string question[200];
-    string answer[200];
-    string explanation[200];
-    string version[200];
-    string type[200];
-    string label[200];
+    string question[200], answer[200], explanation[200];
     string line;
 
     ifstream fin(filename);
-
-    int i, Switch = 0;
-    while (getline(fin, line))
+    if (!fin)
+    {
+        cout << "Error: File not found." << endl;
+        return 1;
+    }
+    int i = 0, Switch = -1;
+    while (getline(fin, line) && i < 200)
     {
         if (line.find("question:") != string::npos)
             Switch = 0;
@@ -29,14 +36,14 @@ int main()
             Switch = 1;
         else if (line.find("explanation:") != string::npos)
             Switch = 2;
-        else
-            Switch = 5;
+        else if (line.find("version:") != string::npos)
+            Switch = -1;
 
         if (Switch == 0)
         {
             if (line.find("question:") != string::npos)
             {
-                question[i] += line.substr(9);
+                question[i] += line.substr(10);
             }
             else
             {
@@ -54,65 +61,69 @@ int main()
         {
             if (line.find("explanation:") != string::npos)
             {
-                explanation[i] += line.substr(12);
+                explanation[i] += line.substr(13);
             }
             else
             {
-                explanation[i] += line;
+                explanation[i] += line + "\n";
             }
         }
 
         if (line.find("type:") != string::npos)
         {
             i++;
+            Switch = -1;
         }
     }
 
-    int True, False, j = 0;
-    while (!question[j].empty())
+    double True, NumQ = 0;
+    int j = 0;
+    while (!question[j].empty() && j < 200)
     {
         string ans;
-        cout << "\033[1m" << "Question" << j + 1 << ":" << "\033[0m" << "\033[35m" << question[j] << "\033[0m" << endl;
+        cout << "Question " << j + 1 << ":" << question[j] << endl;
         int h = 1;
         while (h <= 3)
         {
             cout << "Enter your answer: ";
-            cin >> ans;
-
+            getline(cin, ans);
             if (ans == answer[j])
             {
                 True++;
-                cout << boolalpha << "number of tries: " << h << endl
-                     << (ans == answer[j]) << endl
+                cout << "number of tries: " << h << endl
+                     << "true" << endl
                      << endl;
                 break;
             }
             else
             {
-                cout << boolalpha << "number of tries: " << h << endl
-                     << (ans == answer[j]) << endl;
-                if (h == 3 and ans != answer[j])
+                cout << "number of tries: " << h << endl
+                     << "false" << endl;
+                if (h == 3)
                 {
-                    cout << "\033[1m" << "Explanation:" << "\033[0m" << "\033[35m" << explanation[j] << "\033[0m" << endl
-                         << endl;
+                    cout << "Explanation: " << explanation[j] << endl;
                 }
             }
             h++;
         }
-        False++;
+        NumQ++;
         j++;
+        cout << endl;
     }
 
+    double percentage = (True / NumQ) * 100;
     string grade;
-    if ((True / (True + False)) >= 90)
+    if (percentage >= 90)
         grade = "excellent";
-    if ((True / (True + False)) >= 80 and (True / (True + False)) < 90)
+    else if (percentage >= 80)
         grade = "good";
-    if ((True / (True + False)) >= 60 and (True / (True + False)) < 80)
+    else if (percentage >= 60)
         grade = "pass";
-    if ((True / (True + False)) < 60)
+    else
         grade = "please ask help ASAP";
 
-    cout << "\nnumber of correct problems: " << True << "\npercentage of correct: " << (True / (True + False)) << "%\n"
+    cout << "\nNumber of correct problems: " << True
+         << "\nPercentage of correct: " << percentage << "%"
+         << "\n"
          << grade << endl;
 }
