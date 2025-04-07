@@ -1,0 +1,481 @@
+1
+question: Given char arr[] = {'A', 'B', 'C'}, what is arr[1]?
+answer: 'B'
+explanation: arr[1] is the second element of array arr, which is 'B' in this example.
+type: array
+version: f24 v1
+label: 1.1
+
+2
+question: Declare function increase, given an integer array arr with size many elements, increase each element of the array by 1. Return type is void. Define the function header (no implementation is needed).
+answer: void increase(int arr[], int size);
+explanation: (1) the first parameter is int arr[], the name of array arr, which also implies the address of the first element of array.
+(2) the second parameter represents the number of elements of the array.
+type: function; array
+version: f24 v1
+label: 1.2
+
+3
+question: Assume that n is properly declared and initialized. Write a statement to declare lastDigit as an integer and initialize it to be the least significant digit of integer n. Suppose n is 123, after the statement, lastDigit is 3.
+answer: int lastDigit = n % 10;
+explanation: (1) operator % is called remainder or modular operator.
+(2) For example, 12 % 10 means the remainder when dividing 12 pens among 10 students, each student gets 1 pen, and there are 2 pens left.
+(3) In general, n % 10 returns the last digit, or the rightmost digit (least significant digit), of n.
+(4) int lastDigit = n % 10; is a statement to declare lastDigit as an int and initialize it by the last digit of n.
+type: arithmetic; modular; remainder 
+version: f24 v1
+label: 1.3
+
+4
+question: What is the output?
+string tens_name(int n);
+
+int main() {
+    cout << tens_name(82) << endl;
+    return 0;
+}
+
+string tens_name(int n) {
+    if (n < 20 || n > 99) 
+       return "";
+
+    string names[] = {"", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+
+    return names[n / 10];
+}
+
+answer: eighty
+explanation: (1) When calling tens_name(82), n in tens_name is initialized to be 82.
+(2) Since 82 is not less than 20 or 82 is not larger than 99, no return "";
+(3) 82 / 10 is integer division. It is like to divide 82 pens among 10 students, each student get 8 pens. So 82 / 10 returns 8.
+(4) names[n / 10] is names[82 / 10], which is names[8].
+
+index    0  1      2       3        4       5        6       7      8 
+ 
+element +--+--+--------+--------+-------+-------+-------+---------+--------+...
+        |""|""|"twenty"|"thirty"|"forty"|"fifty"|"sixty"|"seventy"|"eighty"|...
+        +--+--+--------+--------+-------+-------+-------+---------+--------+...
+
+(5) The return of tens_name(82) is "eighty".
+(6) In main function, print tens_name(82), so the print out is "eighty" (without quotes).
+type: integer division; array
+version: f24 v1
+label: 1.4
+
+5
+question: Given string greeting = "How are you?"; What is the value for greeting.substr(4, 5)?
+answer: "are y"
+explanation: (1) greeting.substr(4, 5) extracts a substring from greeting from its index 4 and span 5 characters.
+(2) The character indexed at 4 in string greeting with value "How are you?" is the fifth character, which is letter 'a'.
+(3) Starting from letter 'a', take a total of 5 letters. And we get "are y".
+type: string; substring 
+version: f24 v1
+label: 1.5
+
+6
+question: What is the value of 2 - 3 / 2?
+answer: 1
+explanation: (1) operator / has higher precedence than operator -.
+(2) 3 / 2 is integer division, which returns 1. It can be interpreted as 3 pens divided by 2 persons, each person gets one (1) pen.
+(3) 2 - 3 / 2 is the same as 2 - 1, which is 1.
+type: arithmetic; integer division
+version: f24 v1
+label: 1.6
+
+7
+question: The area of a trapezoid with bases a, b, and height h is (a+b)/2 h. Assume that a, b, h are properly declared as double types and initialized, write a statement to declare area and save the value of the area.
+answer: double area = 1 / 2.0 * (a+b) * h;
+explanation: (1) Cannot use 1 / 2. * (a + b) * h; which is not a statement. 
+(2) Cannot use double area = 1 / 2 * (a + b) * h; since 1 / 2 returns 0.
+(3) 1 / 2.0 returns 0.5.
+type: arithmetic; integer division
+version: f24 v1
+label: 1.7
+
+8
+question: What is the output of the following code?
+#include <iostream>
+using namespace std;
+
+int main() { 
+    int count = 0; 
+    for (int i = 9; i >= 2; i -= 3) 
+        count++; 
+
+    cout << count << endl; 
+
+    return 0;
+}
+
+
+answer: 3
+explanation: Variable i starts from 9 and counts starts from 0.
++-----+----------+------------+--------+
+|  i  | i >= 2 ? | count++;   | i -= 3 |
++-----+----------+------------+--------+
+|  9  | yes      | count is 1 | i is 6 |
++-----+----------+------------+--------+
+|  6  | yes      | count is 2 | i is 3 |
++-----+----------+------------+--------+
+|  3  | yes      | count is 3 | i is 0 |
++-----+----------+------------+--------+
+|  0  | no       |
++-----+----------+
+
+After the loop, print the value of count, which is 3.
+type: repetition
+version: f24 v1
+label: 1.8
+
+9
+question: Write a statement to call foo function on integer variables a and b, both are properly declared and initialized.void foo(int& a, int& b);
+
+answer: foo(a, b);
+explanation: (1) int& means to pass by reference, it is like the original copy of int. So the first paramerer is a.
+(2) Similarly, the second parameter is b. Do not forget to add ; after calling the function.
+(3) Return type of foo(a, b) is void. There is no need to use a variable to hold the return of foo function.
+type: function
+version: f24 v1
+label: 1.9
+
+10
+question: Write a condition in C++ to represent that an integer variable n is in the range of [60,80], where both ends are included, that is, 60 <= n <= 80 in mathematic representation. 
+answer: (n >= 60 && n <= 80)
+explanation: (1) && means and. That is, n >= 60 and n <= 80.
+(2) Condition in C++ needs to be enclosed in a pair of parentheses.
+(3) Warning: cannot write (n >= 60 && n <= 80) as (60 <= n <= 80). Otherwise, suppose n is 90, then 60 <= n returns true, which is 1.
+(4) Also, 1 <= 80 returns true. However, 90 is not in [60,80].
+type: condition
+version: f24 v1
+label: 1.10
+
+11
+question: Given char arr[] = {'A', 'B', 'C'}, what is arr[2]?
+answer: 'C'
+explanation: arr[2] is the third element of array arr, which is 'C' in this example. Note that index starts from zero.
+type: array
+version: f24 v2
+label: 1.1
+
+12
+question: Declare function decrease, given an integer array arr with size many elements, decrease each element of the array by 1. Return type is void. Define the function header (no implementation is needed). 
+answer: void decrease(int arr[], int size);
+explanation: another solution is void decrease(int* arr, int size); (1) the first parameter is int arr[], the name of array arr, which also implies the address of the first element of array.
+(2) the second parameter represents the number of elements of the array.
+Warning: void decrease(int& arr[], int size); iswrong, need to replace int& arr[] by int arr[]. 
+type: function; array
+version: f24 v2
+label: 1.2
+
+13
+question: Assume that n is properly declared and initialized. Write a statement to declare lastTwoDigits as an integer and initialize it to be the two least significant digits of integer n. Suppose n is 123, after the statement, lastTwoDigits is 23.
+answer: int lastTwoDigits = n % 100;
+explanation: (1) operator % is called remainder or modular operator.
+(2) For example, 123 % 100 means the remainder when dividing 123 pens among 100 students, each student gets 1 pen, and there are 23 pens left.
+(3) In general, n % 100 returns the last two digit, or the two rightmost digits (two least significant digits), of n.
+(4) int lastTwoDigits = n % 100; is a statement to declare lastTwoDigit as an int and initialize it by the last two digit of n.
+type: arithmetic; modular; remainder 
+version: f24 v2
+label: 1.3
+
+14
+question: What is the output? 
+string tens_name(int n); 
+
+int main() { 
+    cout << tens_name(93) << endl; 
+    return 0;
+}
+
+string tens_name(int n) { 
+    if (n < 20 || n > 99) 
+       return ""; 
+
+    string names[] = {"", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+    return names[n / 10]; 
+}
+
+answer: ninety
+explanation: (1) When calling tens_name(93), n in tens_name is initialized to be 93.
+(2) Since 93 is not less than 20 or 93 is not larger than 99, no return "";
+(3) 93 / 10 is integer division. It is like to divide 93 pens among 10 students, each student get 9 pens. So 93 / 10 returns 9.
+(4) names[n / 10] is names[93 / 10], which is names[9].
+
+index    0  1      2       3        4       5        6       7      8       9
+ 
+element +--+--+--------+--------+-------+-------+-------+---------+--------+--------+
+        |""|""|"twenty"|"thirty"|"forty"|"fifty"|"sixty"|"seventy"|"eighty"|"ninety"|
+        +--+--+--------+--------+-------+-------+-------+---------+--------+--------+
+
+(5) The return of tens_name(93) is "ninety".
+(6) In main function, print tens_name(93), so the print out is "ninety" (without quotes).
+type: integer division; array
+version: f24 v2
+label: 1.4
+
+15
+question: Given string greeting = "Nice to meet you."; What is the value for greeting.substr(2, 5)?
+answer: "ce to"
+explanation: (1) greeting.substr(2, 5) extracts a substring from greeting from its index 2 and span 5 characters.
+(2) The character indexed at 2 in string greeting with value "Nice to meet you." is the third character since index starts from 0, which is letter 'c'.
+(3) Starting from letter 'c', take a total of 5 letters. And we get "ce to".
+type: string; substring
+version: f24 v2
+label: 1.4
+
+16
+question: What is the value of 1 + 5 % 2? 
+answer: 2
+explanation: (1) operator % has higher precedence than operator +.
+(2) 5 % 2 is remainder (aka modular) operator, which returns 1. It can be interpreted as 5 pens divided by 2 persons, each person gets two (2) pen and there is one 1 left (remained).
+(3) 1 + 5 % 2 is the same as 1 + 1, which is 2.
+type: arithmetic; remainder; modular 
+version: f24 v2
+label: 1.6
+
+17
+question: The volume of a sphere with radius r is 4/3πr^3. Assume that r is properly declared as double type and initialized, write a statement to declare volume and save the value of the volume. Use M_PI for π.
+answer: double volume = 4 / 3.0 * M_PI * r * r * r;
+explanation: another solution is to use pow function, shown as follows.
+double volume = 4 / 3.0 * M_PI * pow(r, 3);
+(1) Cannot use 4 / 3.0 * M_PI * r * r * r; which is not a statement. 
+(2) Cannot use double volume = 4 / 3 * M_PI * r * r * r; since 4 / 3 as integer division returns 1.
+(3) 4 / 3.0 returns 1.33.
+type: arithmetic; integer division
+version: f24 v2
+label: 1.7
+
+18
+question: What is the output of the following code?
+#include <iostream>
+using namespace std;
+
+int main() {
+    int count = 0;
+    for (int i = 3; i < 10; i += 2)
+         count++; 
+
+    cout << count << endl; 
+
+    return 0;
+}
+
+
+answer: 4
+explanation: Variable i starts from 3 and counts starts from 0.
++-----+----------+------------+---------+
+|  i  | i < 10 ? | count++;   | i += 2  |
++-----+----------+------------+---------+
+|  3  | yes      | count is 1 | i is 5  |
++-----+----------+------------+---------+
+|  5  | yes      | count is 2 | i is 7  |
++-----+----------+------------+---------+
+|  7  | yes      | count is 3 | i is 9  |
++-----+----------+------------+---------+
+|  9  | yes      | count is 4 | i is 11 |
++-----+----------+------------+--------+
+| 11  | no       |
++-----+----------+
+
+After the loop, print the value of count, which is 4.
+type: repetition
+version: f24 v2
+label: 1.8
+
+19
+question: Write a statement to call foo function on double variables a and b, both are properly declared and initialized. 
+void foo(double& a, double& b);
+
+
+answer: foo(a, b);
+explanation: Symbol & as in double& means pass by reference, that is, pass the original copy of actual parameter. Then whatever change applied to the actual parameter inside the callee is carried back to its caller.
+
+Warning: do not use foo(&a, &b); where &a means the address of double type variable a.
+
+Reason: the original copy of a double type variable is still a double type. Hence, to call a function with pass-by-reference parameters, we still use foo(a, b);
+
+An example is as follows, where foo(double& a, double& b) exchanges the values of a and b and carries the updated values back to a caller of foo function.
+
+#include <iostream>
+using namespace std;
+
+void foo(double& a, double& b);
+
+int main() {
+    double a = 3.1;
+    double b = 5.6;
+    foo(a, b);
+
+    cout << "a = " << a 
+         << ", b = " << b << endl;
+    return 0;
+}
+
+void foo(double& a, double& b) {
+    double temp = a;
+    a = b;
+    b = temp;
+}
+type: function
+version: f24 v2
+label: 1.9
+
+20
+question: Write a condition in C++ to represent that an integer variable n is out of the range of [60, 80], that is, n is either smaller than 60 or larger than 80.
+answer: (n < 60 || n > 80)
+explanation: Symbol & as in double& means pass by reference, that is, pass the original copy of actual parameter. Then whatever change applied to the actual parameter inside the callee is carried back to its caller.
+
+Warning: do not use foo(&a, &b); where &a means the address of double type variable a.
+
+Reason: the original copy of a double type variable is still a double type. Hence, to call a function with pass-by-reference parameters, we still use foo(a, b);
+
+An example is as follows, where foo(double& a, double& b) exchanges the values of a and b and carries the updated values back to a caller of foo function.
+
+#include <iostream>
+using namespace std;
+
+void foo(double& a, double& b);
+
+int main() {
+    double a = 3.1;
+    double b = 5.6;
+    foo(a, b);
+
+    cout << "a = " << a 
+         << ", b = " << b << endl;
+    return 0;
+}
+
+void foo(double& a, double& b) {
+    double temp = a;
+    a = b;
+    b = temp;
+}
+type: condition
+version: f24 v2
+label: 1.10
+
+21
+question: Given string arr[] = {"Hello", "Hi", "Hey"}, what is arr[2]?
+answer: "Hey"
+explanation: 
+type: array
+version: s24 v1
+label: 1.1
+
+22
+question: Declare function remove, for an given array arr of integers, an integer called size, which represents the number of elements in the array, and an integer called target, search whether target is in the array or not, if yes, then remove the target from the array, and the size is reduced by 1, otherwise, do nothing and no change to the original size. Return type is void.
+answer: void remove(int arr[], int& size, int target);
+explanation: 
+type: function; array; pass by reference
+version: s24 v1
+label: 1.2
+
+23
+question: Write a statement to generate a random int in [-2, 3]. No need to include libraries.
+answer: rand() % 6 - 2
+explanation: 
+type: random
+version: s24 v1
+label: 1.3
+
+24
+question: Given string greeting = "Wonderful"; What is the value for greeting.substr(4, 2)?
+answer: "er"
+explanation: 
+type: string; substring
+version: s24 v1
+label: 1.4
+
+25
+question: What is the value of 1 / 3 * 2?
+answer: 0
+explanation: 
+type: arithmetic; integer division
+version: s24 v1
+label: 1.5
+
+26
+question: Suppose n is 2341, what the value of foo(n)?
+int foo(int n) {
+    int result = 0;
+    do { 
+       result += n % 10;
+       n /= 10;
+     } while (n != 0);
+     return result;
+}
+
+answer: 10
+explanation: 
+type: arithmetic; integer division; remainder
+version: s24 v1
+label: 1.6
+
+27
+question: Given two double variables a and b, find out the return of a^b. Hint: use pow function, see cheat sheet paper.
+answer: pow(a, b);
+explanation: 
+type: arithmetic 
+version: s24 v1
+label: 1.7
+
+28
+question: What is the output of the following code?
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int count = 0;
+    for (int i =-6; i < 2; i += 3)
+        count++;
+
+    cout << count << endl;
+
+    return 0;
+}
+
+answer: 3
+explanation: 
+type: repetition 
+version: s24 v1
+label: 1.8
+
+29
+question: What is the output for the following code?
+#include <iostream>
+using namespace std;
+
+void foo(int& a, int b);
+
+int main() {
+    int i = 1;
+    int j = 3;
+    foo(i, j);
+    cout << "i = " << i 
+         << ", j = " << j << endl;
+
+    return 0;
+}
+
+void foo(int& a, int b) {
+    a++;
+    b--;
+}
+
+
+answer: i = 2, j = 3
+explanation: 
+type: function; pass by value; pass by reference
+version: s24 v1
+label: 1.9
+
+30
+question: Write a condition to represent that char variable ch is none of the following: 'a', 'b', or 'c'.
+answer: (ch != 'a' && ch != 'b' && ch != 'c')
+explanation: another solution is (! (ch == 'a' || ch == 'b' || ch == 'c'))
+type: condition
+version: s24 v1
+label: 1.10
+
